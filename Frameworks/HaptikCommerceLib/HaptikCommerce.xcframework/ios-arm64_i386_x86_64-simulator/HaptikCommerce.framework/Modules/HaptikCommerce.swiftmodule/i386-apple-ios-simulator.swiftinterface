@@ -1,0 +1,82 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-module-flags: -target i386-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HaptikCommerce
+import AVFoundation
+import Foundation
+@_exported import HaptikCommerce
+import Speech
+import Swift
+import UIKit
+import WebKit
+@_inheritsConvenienceInitializers @objc public class HPAttributesBuilder : ObjectiveC.NSObject {
+  @objc public var sessionID: Swift.String
+  @objc public var sourceController: Swift.String
+  @objc public var category: Swift.String
+  @objc public var abExperiment: Swift.Bool
+  @objc public var controllerUUID: Swift.String?
+  @objc public var posterDescription: Swift.String?
+  @objc public var posterID: Swift.String?
+  @objc public var posterTitle: Swift.String?
+  @objc public var cart: Swift.String?
+  @objc public var customerID: Swift.String
+  @objc public var debug: Swift.Bool
+  @objc public var geo: Swift.String
+  @objc public var language: HaptikCommerce.HPLanguage
+  @objc public var mode: Swift.String?
+  @objc public var pageTitle: Swift.String?
+  @objc public var pageType: Swift.String?
+  @objc public var pincode: Swift.String
+  @objc public var productID: Swift.String?
+  @objc public var productName: Swift.String?
+  @objc public var query: Swift.String?
+  @objc public var realTime: Swift.Bool
+  @objc public var removeOptionBackground: Swift.Bool
+  @objc public var searchCriteria: Swift.String?
+  @objc public var speak: HaptikCommerce.HPSpeechMode
+  @objc public var storeApp: Swift.Bool
+  @objc public var tags: Swift.String?
+  @objc public var voiceFirst: Swift.Bool
+  @objc public class func build(data builderData: @escaping (HaptikCommerce.HPAttributesBuilder) -> Swift.Void) -> Self
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc public protocol HPExternalEvent {
+  @objc func didReceiveHaptikEvent(_ eventData: Swift.String)
+  @objc func didReceiveHaptikError(_ error: Foundation.NSError)
+}
+@objc public enum HPLanguage : Swift.Int {
+  case englishUK
+  case englishUS
+  case hindi
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum HPSpeechMode : Swift.Int {
+  case alwaysOn
+  case alwaysOff
+  case whenSpokenTo
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class HaptikCommerceLib : ObjectiveC.NSObject {
+  @objc public static let sharedSDK: HaptikCommerce.HaptikCommerceLib
+  @objc public var delegate: HaptikCommerce.HPExternalEvent?
+  @objc deinit
+}
+extension HaptikCommerceLib {
+  @objc dynamic public func loadConversation(launchController: UIKit.UIViewController, attributes: HaptikCommerce.HPAttributesBuilder)
+  @objc dynamic public func unregister()
+  @objc dynamic public func updateEventData(eventName: Swift.String, eventData: [Swift.String : Any])
+}
+extension HaptikCommerce.HPLanguage : Swift.Equatable {}
+extension HaptikCommerce.HPLanguage : Swift.Hashable {}
+extension HaptikCommerce.HPLanguage : Swift.RawRepresentable {}
+extension HaptikCommerce.HPSpeechMode : Swift.Equatable {}
+extension HaptikCommerce.HPSpeechMode : Swift.Hashable {}
+extension HaptikCommerce.HPSpeechMode : Swift.RawRepresentable {}
