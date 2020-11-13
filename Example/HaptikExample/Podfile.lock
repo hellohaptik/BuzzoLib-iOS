@@ -1,16 +1,3 @@
-PODS:
-  - HaptikCommerceLib (0.1.0)
-
-DEPENDENCIES:
-  - HaptikCommerceLib (from `../../`)
-
-EXTERNAL SOURCES:
-  HaptikCommerceLib:
-    :path: "../../"
-
-SPEC CHECKSUMS:
-  HaptikCommerceLib: b5e864394cdae1fa12080d263d97c03e360d8116
-
-PODFILE CHECKSUM: bbe08c3136ba8cf219ef213b2015fae11f0ef97a
+PODFILE CHECKSUM: 50b24ca4be500d152097c18c71beb7e72148b2ed
 
 COCOAPODS: 1.10.0

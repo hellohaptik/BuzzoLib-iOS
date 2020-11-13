@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
 // swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HaptikCommerce
 import AVFoundation
 import Foundation
@@ -64,12 +64,12 @@ import WebKit
     get
   }
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class HaptikCommerce : ObjectiveC.NSObject {
-  @objc public static let sharedSDK: HaptikCommerce.HaptikCommerce
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class HaptikCommerceLib : ObjectiveC.NSObject {
+  @objc public static let sharedSDK: HaptikCommerce.HaptikCommerceLib
   @objc public var delegate: HaptikCommerce.HPExternalEvent?
   @objc deinit
 }
-extension HaptikCommerce {
+extension HaptikCommerceLib {
   @objc dynamic public func loadConversation(launchController: UIKit.UIViewController, attributes: HaptikCommerce.HPAttributesBuilder)
   @objc dynamic public func unregister()
   @objc dynamic public func updateEventData(eventName: Swift.String, eventData: [Swift.String : Any])

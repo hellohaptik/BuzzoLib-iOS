@@ -6,5 +6,6 @@ target 'HaptikExample' do
   use_frameworks!
 
   # Pods for HaptikExample
-  pod 'HaptikCommerceLib', :path => '../../'
+ # pod 'HaptikCommerceLib', :path => '../../'
+
 end
