@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		F5F644F31B8C347F55F30C1C3FCEAAE0 /* HaptikCommerceLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9973F086B03D5281833B282C0968F2AE /* Build configuration list for PBXAggregateTarget "HaptikCommerceLib" */;
+			buildPhases = (
+				B7A712F4E0A0809BFB1FC88C77D7D13C /* [CP] Copy dSYMs */,
+				253FCBAF6C8A6E40ABFE51AD34080D03 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = HaptikCommerceLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		29B5320E0FD749D2ED0EB26D39D19872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		463F7DFEE35A39882517CAD7A21383BE /* Pods-Demo_pod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21CB3D94306D2A92CDFDB6CA4A69A4B7 /* Pods-Demo_pod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		872D1FF96235D9B48FBAD3FCE3155E81 /* Pods-Demo_pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DA4BCF50844022A60A7296892D5F26 /* Pods-Demo_pod-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F2E8D06474CE93524F2903AD0E85E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5F644F31B8C347F55F30C1C3FCEAAE0;
+			remoteInfo = HaptikCommerceLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0144D27F7FD1B60DB9273FAE16C0B955 /* Pods-Demo_pod-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo_pod-acknowledgements.markdown"; sourceTree = "<group>"; };
+		21458C68DA9741A58C13BCBF99EB62AF /* HaptikCommerceLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HaptikCommerceLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		21CB3D94306D2A92CDFDB6CA4A69A4B7 /* Pods-Demo_pod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo_pod-umbrella.h"; sourceTree = "<group>"; };
+		473CB2D026986830CA3690BF81CCD0BD /* HaptikCommerceLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HaptikCommerceLib.release.xcconfig; sourceTree = "<group>"; };
+		4EFC69CB11D6D44A41C69F106C9F415C /* Pods_Demo_pod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Demo_pod.framework; path = "Pods-Demo_pod.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56BDBD89728EC8B5F811C1D943B11CB0 /* Pods-Demo_pod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo_pod-Info.plist"; sourceTree = "<group>"; };
+		68EC690B455A71797BB4AC9CBC1AEFCE /* Pods-Demo_pod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo_pod.release.xcconfig"; sourceTree = "<group>"; };
+		6FD71CCF3CA935580894C87B5ACA5388 /* HaptikCommerce.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = HaptikCommerce.xcframework; path = Frameworks/HaptikCommerceLib/HaptikCommerce.xcframework; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		80B09591380778EA4D73C125BAC04491 /* Pods-Demo_pod-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo_pod-frameworks.sh"; sourceTree = "<group>"; };
+		80DA4BCF50844022A60A7296892D5F26 /* Pods-Demo_pod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo_pod-dummy.m"; sourceTree = "<group>"; };
+		99693E63C8A0C84CBEFC7054E3244A52 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D4816BDBCCCC5F79858C6F198C9A5D9 /* Pods-Demo_pod-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo_pod-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6F894D8723A4595A9CD8CC45803BDAB /* HaptikCommerceLib-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "HaptikCommerceLib-copy-dsyms.sh"; sourceTree = "<group>"; };
+		BB8C64805E0FDD7956210533C8DC5674 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C3376895021B2AEAC34CB5458F01914A /* HaptikCommerceLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HaptikCommerceLib.debug.xcconfig; sourceTree = "<group>"; };
+		D57D62D715FBA07388D09EDE8A575F9E /* Pods-Demo_pod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo_pod.modulemap"; sourceTree = "<group>"; };
+		DC9EDFD1EEAC9F1B80D141D65935F52C /* Pods-Demo_pod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo_pod.debug.xcconfig"; sourceTree = "<group>"; };
+		E92D49A2601EAEB6F3F7022997C13997 /* HaptikCommerceLib-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "HaptikCommerceLib-xcframeworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD5C3D3A23FB9CC2F3B21FF65A04B95A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B5320E0FD749D2ED0EB26D39D19872 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A4E24AC9AED5F8CB5EDC885042E6D3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				21458C68DA9741A58C13BCBF99EB62AF /* HaptikCommerceLib.podspec */,
+				BB8C64805E0FDD7956210533C8DC5674 /* LICENSE */,
+				99693E63C8A0C84CBEFC7054E3244A52 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		34E996347E881614BBFBE9150F1B9CC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC69CB11D6D44A41C69F106C9F415C /* Pods_Demo_pod.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7CB42C1236EC1695340947C88C6176 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C59F72C8EB5576457A42DD2E5126A69 /* HaptikCommerceLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		778F762FD433F01DFCA7498A5D085D4A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE8A20A9505F8E8F455582F98BA928C5 /* Pods-Demo_pod */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8D3D51CC80C585800D4B5C73D65B2309 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6F894D8723A4595A9CD8CC45803BDAB /* HaptikCommerceLib-copy-dsyms.sh */,
+				E92D49A2601EAEB6F3F7022997C13997 /* HaptikCommerceLib-xcframeworks.sh */,
+				C3376895021B2AEAC34CB5458F01914A /* HaptikCommerceLib.debug.xcconfig */,
+				473CB2D026986830CA3690BF81CCD0BD /* HaptikCommerceLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Demo_pod/Pods/Target Support Files/HaptikCommerceLib";
+			sourceTree = "<group>";
+		};
+		9C59F72C8EB5576457A42DD2E5126A69 /* HaptikCommerceLib */ = {
+			isa = PBXGroup;
+			children = (
+				A517F4B83BDEDBC3CFAC0658BB0CD400 /* Frameworks */,
+				11A4E24AC9AED5F8CB5EDC885042E6D3 /* Pod */,
+				8D3D51CC80C585800D4B5C73D65B2309 /* Support Files */,
+			);
+			name = HaptikCommerceLib;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		A517F4B83BDEDBC3CFAC0658BB0CD400 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FD71CCF3CA935580894C87B5ACA5388 /* HaptikCommerce.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE8A20A9505F8E8F455582F98BA928C5 /* Pods-Demo_pod */ = {
+			isa = PBXGroup;
+			children = (
+				D57D62D715FBA07388D09EDE8A575F9E /* Pods-Demo_pod.modulemap */,
+				0144D27F7FD1B60DB9273FAE16C0B955 /* Pods-Demo_pod-acknowledgements.markdown */,
+				9D4816BDBCCCC5F79858C6F198C9A5D9 /* Pods-Demo_pod-acknowledgements.plist */,
+				80DA4BCF50844022A60A7296892D5F26 /* Pods-Demo_pod-dummy.m */,
+				80B09591380778EA4D73C125BAC04491 /* Pods-Demo_pod-frameworks.sh */,
+				56BDBD89728EC8B5F811C1D943B11CB0 /* Pods-Demo_pod-Info.plist */,
+				21CB3D94306D2A92CDFDB6CA4A69A4B7 /* Pods-Demo_pod-umbrella.h */,
+				DC9EDFD1EEAC9F1B80D141D65935F52C /* Pods-Demo_pod.debug.xcconfig */,
+				68EC690B455A71797BB4AC9CBC1AEFCE /* Pods-Demo_pod.release.xcconfig */,
+			);
+			name = "Pods-Demo_pod";
+			path = "Target Support Files/Pods-Demo_pod";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3F7CB42C1236EC1695340947C88C6176 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				34E996347E881614BBFBE9150F1B9CC3 /* Products */,
+				778F762FD433F01DFCA7498A5D085D4A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AD0BAD0E2A4E620C2F4E27CF55E0615 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463F7DFEE35A39882517CAD7A21383BE /* Pods-Demo_pod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		43E257DC9E659F576E6ED10209AF5FF9 /* Pods-Demo_pod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 688BD22908AE3290B24D779BD99C4239 /* Build configuration list for PBXNativeTarget "Pods-Demo_pod" */;
+			buildPhases = (
+				0AD0BAD0E2A4E620C2F4E27CF55E0615 /* Headers */,
+				24837223124D1D7FFC124B1B562A25F3 /* Sources */,
+				BD5C3D3A23FB9CC2F3B21FF65A04B95A /* Frameworks */,
+				98844AA0D27489E20F838CA22CB03D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E468F9E1A572CBBE48160F8C0EF0D159 /* PBXTargetDependency */,
+			);
+			name = "Pods-Demo_pod";
+			productName = "Pods-Demo_pod";
+			productReference = 4EFC69CB11D6D44A41C69F106C9F415C /* Pods_Demo_pod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 34E996347E881614BBFBE9150F1B9CC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5F644F31B8C347F55F30C1C3FCEAAE0 /* HaptikCommerceLib */,
+				43E257DC9E659F576E6ED10209AF5FF9 /* Pods-Demo_pod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98844AA0D27489E20F838CA22CB03D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		253FCBAF6C8A6E40ABFE51AD34080D03 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/HaptikCommerceLib/HaptikCommerceLib-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/HaptikCommerceLib/HaptikCommerceLib-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/HaptikCommerceLib/HaptikCommerceLib-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7A712F4E0A0809BFB1FC88C77D7D13C /* [CP] Copy dSYMs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/HaptikCommerceLib/HaptikCommerceLib-copy-dsyms-input-files.xcfilelist",
+			);
+			name = "[CP] Copy dSYMs";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/HaptikCommerceLib/HaptikCommerceLib-copy-dsyms-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/HaptikCommerceLib/HaptikCommerceLib-copy-dsyms.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24837223124D1D7FFC124B1B562A25F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872D1FF96235D9B48FBAD3FCE3155E81 /* Pods-Demo_pod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E468F9E1A572CBBE48160F8C0EF0D159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HaptikCommerceLib;
+			target = F5F644F31B8C347F55F30C1C3FCEAAE0 /* HaptikCommerceLib */;
+			targetProxy = 5F2E8D06474CE93524F2903AD0E85E76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6C6178559BD9074C26E073DF5769DB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		865965F1F593984A0F7901C32160700F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3376895021B2AEAC34CB5458F01914A /* HaptikCommerceLib.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94350A88A126D4AB1652D2E50C06FDA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 473CB2D026986830CA3690BF81CCD0BD /* HaptikCommerceLib.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C62685A7A753200A856D2F238C23F080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9EDFD1EEAC9F1B80D141D65935F52C /* Pods-Demo_pod.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo_pod/Pods-Demo_pod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo_pod/Pods-Demo_pod.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE05A98676A667D513177FC867214E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68EC690B455A71797BB4AC9CBC1AEFCE /* Pods-Demo_pod.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo_pod/Pods-Demo_pod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo_pod/Pods-Demo_pod.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6178559BD9074C26E073DF5769DB42 /* Debug */,
+				5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		688BD22908AE3290B24D779BD99C4239 /* Build configuration list for PBXNativeTarget "Pods-Demo_pod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62685A7A753200A856D2F238C23F080 /* Debug */,
+				CE05A98676A667D513177FC867214E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9973F086B03D5281833B282C0968F2AE /* Build configuration list for PBXAggregateTarget "HaptikCommerceLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865965F1F593984A0F7901C32160700F /* Debug */,
+				94350A88A126D4AB1652D2E50C06FDA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
