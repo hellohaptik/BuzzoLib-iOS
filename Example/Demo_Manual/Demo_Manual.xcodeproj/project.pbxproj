@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		266DC9C62664DA630021DD5D /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266DC9C42664DA370021DD5D /* Starscream.framework */; };
+		266DC9C72664DA630021DD5D /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266DC9C42664DA370021DD5D /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3B6C2F15255E7E6200041CFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C2F14255E7E6200041CFF /* AppDelegate.swift */; };
 		3B6C2F19255E7E6200041CFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C2F18255E7E6200041CFF /* ViewController.swift */; };
 		3B6C2F1C255E7E6200041CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6C2F1A255E7E6200041CFF /* Main.storyboard */; };
@@ -24,6 +26,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				3B6C2F2E255E7F7D00041CFF /* HaptikCommerce.xcframework in Embed Frameworks */,
+				266DC9C72664DA630021DD5D /* Starscream.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		266DC9C42664DA370021DD5D /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Starscream.framework; sourceTree = "<group>"; };
 		3B6C2F11255E7E6200041CFF /* Demo_Manual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_Manual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6C2F14255E7E6200041CFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B6C2F18255E7E6200041CFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B6C2F2D255E7F7D00041CFF /* HaptikCommerce.xcframework in Frameworks */,
+				266DC9C62664DA630021DD5D /* Starscream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +80,7 @@
 				3B6C2F14255E7E6200041CFF /* AppDelegate.swift */,
 				3B6C2F18255E7E6200041CFF /* ViewController.swift */,
 				3B6C2F1A255E7E6200041CFF /* Main.storyboard */,
+				266DC9C42664DA370021DD5D /* Starscream.framework */,
 				3B6C2F2A255E7F7500041CFF /* HaptikCommerce.xcframework */,
 				3B6C2F1D255E7E6700041CFF /* Assets.xcassets */,
 				3B6C2F1F255E7E6700041CFF /* LaunchScreen.storyboard */,
@@ -304,6 +310,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6MKXXM927S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Demo_Manual",
+				);
 				INFOPLIST_FILE = Demo_Manual/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -323,6 +333,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6MKXXM927S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Demo_Manual",
+				);
 				INFOPLIST_FILE = Demo_Manual/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

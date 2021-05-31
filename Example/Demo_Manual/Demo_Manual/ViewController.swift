@@ -21,6 +21,9 @@ class ViewController: UIViewController, HPExternalEvent {
             
             builder.category = "grocery"
             builder.voiceFirst = true
+            builder.TTSEngine = .googleTTS
+            builder.TTSVoiceType = .wavenet
+            builder.ASREngine = .reverieASR
         }
         
         HaptikCommerceLib.sharedSDK.loadConversation(launchController: self, attributes: attributes)
