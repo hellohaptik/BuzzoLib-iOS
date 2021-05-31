@@ -20,25 +20,6 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>UIApplicationSceneManifest</key>
-	<dict>
-		<key>UIApplicationSupportsMultipleScenes</key>
-		<false/>
-		<key>UISceneConfigurations</key>
-		<dict>
-			<key>UIWindowSceneSessionRoleApplication</key>
-			<array>
-				<dict>
-					<key>UISceneConfigurationName</key>
-					<string>Default Configuration</string>
-					<key>UISceneDelegateClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
-					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
-				</dict>
-			</array>
-		</dict>
-	</dict>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
@@ -64,12 +45,20 @@
 	</array>
 	<key>HaptikCommerceLib</key>
 	<dict>
-		<key>baseUrl</key>
-		<string>https://jiomart.buzzo.ai</string>
-		<key>clientID</key>
-		<string>jiomart</string>
-		<key>runEnvironment</key>
-		<string>1</string>
+        <key>baseUrl</key>
+        <string>Your_Base_URL</string>
+        <key>clientID</key>
+        <string>Your_Clien_ID</string>
+        <key>runEnvironment</key>
+        <string>1</string>
+        <key>google-api-key</key>
+        <string>your_google-api-key-vCM</string>
+        <key>reverie-api-key</key>
+        <string>your_reverie-api-key</string>
+        <key>reverie-app-id</key>
+        <string>your_reverie_app_id</string>
+        <key>reverie-domain</key>
+        <string>ecomm</string>
 	</dict>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Microphone Speech permission</string>

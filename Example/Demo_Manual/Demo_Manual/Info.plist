@@ -51,6 +51,14 @@
 		<string>Your_Clien_ID</string>
 		<key>runEnvironment</key>
 		<string>1</string>
+		<key>google-api-key</key>
+		<string>your_google-api-key</string>
+		<key>reverie-api-key</key>
+		<string>your_reverie-api-key</string>
+		<key>reverie-app-id</key>
+		<string>your_reverie_app_id</string>
+		<key>reverie-domain</key>
+		<string>ecomm</string>
 	</dict>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Microphone Speech permission</string>

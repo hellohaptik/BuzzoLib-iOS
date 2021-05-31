@@ -1,10 +1,11 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
 // swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HaptikCommerce
 import AVFoundation
 import Foundation
 @_exported import HaptikCommerce
 import Speech
+import Starscream
 import Swift
 import UIKit
 import WebKit
@@ -13,6 +14,7 @@ import WebKit
   @objc public var sourceController: Swift.String
   @objc public var category: Swift.String
   @objc public var abExperiment: Swift.Bool
+  @objc public var ASREngine: HaptikCommerce.ASRMode
   @objc public var controllerUUID: Swift.String?
   @objc public var posterDescription: Swift.String?
   @objc public var posterID: Swift.String?
@@ -35,7 +37,12 @@ import WebKit
   @objc public var speak: HaptikCommerce.HPSpeechMode
   @objc public var storeApp: Swift.Bool
   @objc public var tags: Swift.String?
+  @objc public var TTSEngine: HaptikCommerce.TTSMode
+  @objc public var TTSVoice: HaptikCommerce.TTSVoice
+  @objc public var TTSVoiceType: HaptikCommerce.TTSVoiceType
   @objc public var voiceFirst: Swift.Bool
+  @objc public var headers: [Swift.String : Swift.String]
+  @objc public var customQueryData: [Swift.String : Swift.String]?
   @objc public class func build(data builderData: @escaping (HaptikCommerce.HPAttributesBuilder) -> Swift.Void) -> Self
   @objc deinit
   @objc override dynamic public init()
@@ -47,6 +54,7 @@ import WebKit
 @objc public enum HPLanguage : Swift.Int {
   case englishUK
   case englishUS
+  case englishIN
   case hindi
   public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
@@ -58,6 +66,43 @@ import WebKit
   case alwaysOn
   case alwaysOff
   case whenSpokenTo
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum TTSMode : Swift.Int {
+  case appleNative
+  case googleTTS
+  case reverieTTS
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum TTSVoiceType : Swift.Int {
+  case standard
+  case wavenet
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum TTSVoice : Swift.Int {
+  case male
+  case female
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum ASRMode : Swift.Int {
+  case appleNative
+  case reverieASR
   public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
   public var rawValue: Swift.Int {
@@ -80,3 +125,15 @@ extension HaptikCommerce.HPLanguage : Swift.RawRepresentable {}
 extension HaptikCommerce.HPSpeechMode : Swift.Equatable {}
 extension HaptikCommerce.HPSpeechMode : Swift.Hashable {}
 extension HaptikCommerce.HPSpeechMode : Swift.RawRepresentable {}
+extension HaptikCommerce.TTSMode : Swift.Equatable {}
+extension HaptikCommerce.TTSMode : Swift.Hashable {}
+extension HaptikCommerce.TTSMode : Swift.RawRepresentable {}
+extension HaptikCommerce.TTSVoiceType : Swift.Equatable {}
+extension HaptikCommerce.TTSVoiceType : Swift.Hashable {}
+extension HaptikCommerce.TTSVoiceType : Swift.RawRepresentable {}
+extension HaptikCommerce.TTSVoice : Swift.Equatable {}
+extension HaptikCommerce.TTSVoice : Swift.Hashable {}
+extension HaptikCommerce.TTSVoice : Swift.RawRepresentable {}
+extension HaptikCommerce.ASRMode : Swift.Equatable {}
+extension HaptikCommerce.ASRMode : Swift.Hashable {}
+extension HaptikCommerce.ASRMode : Swift.RawRepresentable {}

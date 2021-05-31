@@ -48,7 +48,7 @@ Pod::Spec.new do |spec|
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  spec.frameworks = "WebKit", "Speech", "UIKit"
+  spec.frameworks = "WebKit", "Speech", "UIKit", "AVFoundation", "Foundation"
   spec.dependency 'Starscream', '~> 4.0.0'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

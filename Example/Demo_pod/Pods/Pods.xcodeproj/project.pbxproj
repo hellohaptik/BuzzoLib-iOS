@@ -3,74 +3,156 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
 		F5F644F31B8C347F55F30C1C3FCEAAE0 /* HaptikCommerceLib */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 9973F086B03D5281833B282C0968F2AE /* Build configuration list for PBXAggregateTarget "HaptikCommerceLib" */;
+			buildConfigurationList = 9D20E30F76CAB0A78BF0175F340EFFC6 /* Build configuration list for PBXAggregateTarget "HaptikCommerceLib" */;
 			buildPhases = (
-				B7A712F4E0A0809BFB1FC88C77D7D13C /* [CP] Copy dSYMs */,
-				253FCBAF6C8A6E40ABFE51AD34080D03 /* [CP] Copy XCFrameworks */,
+				B24D9AAC0F42616BC1A58ECE2F792E54 /* [CP] Copy dSYMs */,
+				8BF82AAF96F193C18135F87B21827288 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
+				8DB1371D217ECA2095608C94D3FD09BE /* PBXTargetDependency */,
 			);
 			name = HaptikCommerceLib;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		29B5320E0FD749D2ED0EB26D39D19872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		463F7DFEE35A39882517CAD7A21383BE /* Pods-Demo_pod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21CB3D94306D2A92CDFDB6CA4A69A4B7 /* Pods-Demo_pod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		872D1FF96235D9B48FBAD3FCE3155E81 /* Pods-Demo_pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DA4BCF50844022A60A7296892D5F26 /* Pods-Demo_pod-dummy.m */; };
+		0942E1C4C4472ADB57AAB7B04842E927 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7175E21DED4337E7BBD3EF7424F315F6 /* Data+Extensions.swift */; };
+		19B6CDD33E1F264FB384E96460351D3D /* FoundationHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF39A541BA78B8472A0F9D4E3504B90 /* FoundationHTTPHandler.swift */; };
+		1EA1C772BAB5D78A10F2D60CF1A73352 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD212064ED1CC47B2560F6E20526B3B /* Server.swift */; };
+		2456728DF30B1E8B88C4ADD7D98CD88E /* NativeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADCC3B462E7AE2D80872C7A66CA4A7 /* NativeEngine.swift */; };
+		355BE414C23C0BB39226BE8C2896B4AF /* FoundationHTTPServerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F95157FC4CC8593A1B1E4607562122 /* FoundationHTTPServerHandler.swift */; };
+		3BA322ABE2B3B7528E20388B96EEFA65 /* Pods-Demo_pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DA4BCF50844022A60A7296892D5F26 /* Pods-Demo_pod-dummy.m */; };
+		4069E1DE53A24ADE7790EE81AF56D6A2 /* FoundationTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E34251E9353A38AC748BB94EDC575 /* FoundationTransport.swift */; };
+		434DF4FA258D260911F0D8AF5B9B9F2D /* Pods-Demo_pod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21CB3D94306D2A92CDFDB6CA4A69A4B7 /* Pods-Demo_pod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6695FE38668F9A6D6F2BCB801FC7BC73 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0925310BE76B051E1B51E7FBB37F35 /* Engine.swift */; };
+		69E19907D715DC80E792060F42683A1A /* FoundationSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5831A57C2E79638C447411ED69EB6C42 /* FoundationSecurity.swift */; };
+		7044E3EF904F7558EBC6AD63E9AAA5B4 /* WebSocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62AC07A9271D8996F97CC35856BA647 /* WebSocketServer.swift */; };
+		7151B330A9201DCB63085900F3D285AA /* WSCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1918C09D193EF7F62A7C2611F12AC44B /* WSCompression.swift */; };
+		725EB0FC0F61D89840C5336C4BAE3B81 /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B65F09370A4D9877255EC1C47060A2 /* Starscream-dummy.m */; };
+		7A0783EF874180DF830E807C5E734089 /* Framer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1454E39E11FD28A611495E03B2015FD4 /* Framer.swift */; };
+		8792257205E12ADF151AAC6A7B94BCD2 /* FrameCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C291A02C054326B5C6022EACD814E4 /* FrameCollector.swift */; };
+		A663B6C806568EA6B8C3BD240CF69EBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AA4BAF160587CCA00C17B27D546451CA /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2727BA14E02E7210DD6B547EA7D394 /* WebSocket.swift */; };
+		AB1AD83A437DDE40BA4AB085A8AC07AF /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EAFCD04DEECC2AC6B8727048A80617 /* Compression.swift */; };
+		BC150B8D348F34FD661FE632BF68F458 /* StringHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D70531198624C7D8B14FF91C62FF6B /* StringHTTPHandler.swift */; };
+		C29902D764223EF009FBFB416ECCE76C /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECFB158E08A6502A38761C96CB68975B /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C319FEFE6FF52FDDF818CF6D795CEAB6 /* WSEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9AF7BDFE0F03CE129D72D85FCA460 /* WSEngine.swift */; };
+		CD547ACB9E86089BA59A7AFF10745067 /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ED0E33A6DD024AC0E71FEF3EA74D7C /* HTTPHandler.swift */; };
+		CE48E9CCE5AA59C2C78F62461949F55F /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC292255BA6A323D7D1C01215CC6591 /* Security.swift */; };
+		DF7BAA7C2BFDA594F4ACCB3D0C25519C /* TCPTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CCA8582A00BBFBC2E9AFFC1C1D53A9 /* TCPTransport.swift */; };
+		F4A18B241231C7FB70555F6784D2FBC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F91E43A80F608B0C3DE659EBC0E86AD9 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C8BC22AA74FEDA9CF44852D28F68A4 /* Transport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5F2E8D06474CE93524F2903AD0E85E76 /* PBXContainerItemProxy */ = {
+		1C6BD8A76D3A4433904449BFD669453F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		34788C268BB5F875455BECE781292A48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F5F644F31B8C347F55F30C1C3FCEAAE0;
 			remoteInfo = HaptikCommerceLib;
 		};
+		999B9B43738444816BA1F2CC6292B680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010F5C43A348BC3C417C21FA354444E2 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
 		0144D27F7FD1B60DB9273FAE16C0B955 /* Pods-Demo_pod-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo_pod-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1454E39E11FD28A611495E03B2015FD4 /* Framer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Framer.swift; path = Sources/Framer/Framer.swift; sourceTree = "<group>"; };
+		16D70531198624C7D8B14FF91C62FF6B /* StringHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringHTTPHandler.swift; path = Sources/Framer/StringHTTPHandler.swift; sourceTree = "<group>"; };
+		1918C09D193EF7F62A7C2611F12AC44B /* WSCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSCompression.swift; path = Sources/Compression/WSCompression.swift; sourceTree = "<group>"; };
 		21458C68DA9741A58C13BCBF99EB62AF /* HaptikCommerceLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HaptikCommerceLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		21B65F09370A4D9877255EC1C47060A2 /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
 		21CB3D94306D2A92CDFDB6CA4A69A4B7 /* Pods-Demo_pod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo_pod-umbrella.h"; sourceTree = "<group>"; };
+		2C1CF04602B9D61F89BCC51DEA7939B0 /* Starscream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.debug.xcconfig; sourceTree = "<group>"; };
+		35ED0E33A6DD024AC0E71FEF3EA74D7C /* HTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHandler.swift; path = Sources/Framer/HTTPHandler.swift; sourceTree = "<group>"; };
+		37C291A02C054326B5C6022EACD814E4 /* FrameCollector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameCollector.swift; path = Sources/Framer/FrameCollector.swift; sourceTree = "<group>"; };
+		3AF39A541BA78B8472A0F9D4E3504B90 /* FoundationHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPHandler.swift; path = Sources/Framer/FoundationHTTPHandler.swift; sourceTree = "<group>"; };
+		3D7E34251E9353A38AC748BB94EDC575 /* FoundationTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationTransport.swift; path = Sources/Transport/FoundationTransport.swift; sourceTree = "<group>"; };
 		473CB2D026986830CA3690BF81CCD0BD /* HaptikCommerceLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HaptikCommerceLib.release.xcconfig; sourceTree = "<group>"; };
+		4A0925310BE76B051E1B51E7FBB37F35 /* Engine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Engine.swift; path = Sources/Engine/Engine.swift; sourceTree = "<group>"; };
+		4D2727BA14E02E7210DD6B547EA7D394 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
 		4EFC69CB11D6D44A41C69F106C9F415C /* Pods_Demo_pod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Demo_pod.framework; path = "Pods-Demo_pod.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC292255BA6A323D7D1C01215CC6591 /* Security.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Security.swift; path = Sources/Security/Security.swift; sourceTree = "<group>"; };
+		56ADCC3B462E7AE2D80872C7A66CA4A7 /* NativeEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeEngine.swift; path = Sources/Engine/NativeEngine.swift; sourceTree = "<group>"; };
 		56BDBD89728EC8B5F811C1D943B11CB0 /* Pods-Demo_pod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo_pod-Info.plist"; sourceTree = "<group>"; };
+		56CCA8582A00BBFBC2E9AFFC1C1D53A9 /* TCPTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPTransport.swift; path = Sources/Transport/TCPTransport.swift; sourceTree = "<group>"; };
+		5831A57C2E79638C447411ED69EB6C42 /* FoundationSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationSecurity.swift; path = Sources/Security/FoundationSecurity.swift; sourceTree = "<group>"; };
 		68EC690B455A71797BB4AC9CBC1AEFCE /* Pods-Demo_pod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo_pod.release.xcconfig"; sourceTree = "<group>"; };
 		6FD71CCF3CA935580894C87B5ACA5388 /* HaptikCommerce.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = HaptikCommerce.xcframework; path = Frameworks/HaptikCommerceLib/HaptikCommerce.xcframework; sourceTree = "<group>"; };
+		7175E21DED4337E7BBD3EF7424F315F6 /* Data+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extensions.swift"; path = "Sources/DataBytes/Data+Extensions.swift"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		80B09591380778EA4D73C125BAC04491 /* Pods-Demo_pod-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo_pod-frameworks.sh"; sourceTree = "<group>"; };
 		80DA4BCF50844022A60A7296892D5F26 /* Pods-Demo_pod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo_pod-dummy.m"; sourceTree = "<group>"; };
+		81F95157FC4CC8593A1B1E4607562122 /* FoundationHTTPServerHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPServerHandler.swift; path = Sources/Framer/FoundationHTTPServerHandler.swift; sourceTree = "<group>"; };
+		85C44A9AB6F12498BFC8233B9D599206 /* Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Starscream-Info.plist"; sourceTree = "<group>"; };
+		891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED9AF7BDFE0F03CE129D72D85FCA460 /* WSEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSEngine.swift; path = Sources/Engine/WSEngine.swift; sourceTree = "<group>"; };
+		9357D61506695B4EDB5014C06BE56A43 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
 		99693E63C8A0C84CBEFC7054E3244A52 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D4816BDBCCCC5F79858C6F198C9A5D9 /* Pods-Demo_pod-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo_pod-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2EAFCD04DEECC2AC6B8727048A80617 /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Compression/Compression.swift; sourceTree = "<group>"; };
+		A62AC07A9271D8996F97CC35856BA647 /* WebSocketServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketServer.swift; path = Sources/Server/WebSocketServer.swift; sourceTree = "<group>"; };
 		B6F894D8723A4595A9CD8CC45803BDAB /* HaptikCommerceLib-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "HaptikCommerceLib-copy-dsyms.sh"; sourceTree = "<group>"; };
 		BB8C64805E0FDD7956210533C8DC5674 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C3376895021B2AEAC34CB5458F01914A /* HaptikCommerceLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HaptikCommerceLib.debug.xcconfig; sourceTree = "<group>"; };
+		C9C8BC22AA74FEDA9CF44852D28F68A4 /* Transport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transport.swift; path = Sources/Transport/Transport.swift; sourceTree = "<group>"; };
 		D57D62D715FBA07388D09EDE8A575F9E /* Pods-Demo_pod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo_pod.modulemap"; sourceTree = "<group>"; };
 		DC9EDFD1EEAC9F1B80D141D65935F52C /* Pods-Demo_pod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo_pod.debug.xcconfig"; sourceTree = "<group>"; };
+		DFD212064ED1CC47B2560F6E20526B3B /* Server.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Server.swift; path = Sources/Server/Server.swift; sourceTree = "<group>"; };
+		E6B8353DB672E6C84ABAF6B044BC47F3 /* Starscream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.release.xcconfig; sourceTree = "<group>"; };
 		E92D49A2601EAEB6F3F7022997C13997 /* HaptikCommerceLib-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "HaptikCommerceLib-xcframeworks.sh"; sourceTree = "<group>"; };
+		ECFB158E08A6502A38761C96CB68975B /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BD5C3D3A23FB9CC2F3B21FF65A04B95A /* Frameworks */ = {
+		5385EC38A34EC0589572D3CA40DCD594 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29B5320E0FD749D2ED0EB26D39D19872 /* Foundation.framework in Frameworks */,
+				A663B6C806568EA6B8C3BD240CF69EBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BD519311FDE64B69519AE156EE11C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A18B241231C7FB70555F6784D2FBC9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00B2FEDCAC8A8BACE0F9A4E951E14F8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7629874EBAAE6E64DF87ACB68FB5A08E /* Starscream */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		11A4E24AC9AED5F8CB5EDC885042E6D3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,14 +161,6 @@
 				99693E63C8A0C84CBEFC7054E3244A52 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		34E996347E881614BBFBE9150F1B9CC3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4EFC69CB11D6D44A41C69F106C9F415C /* Pods_Demo_pod.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		3F7CB42C1236EC1695340947C88C6176 /* Development Pods */ = {
@@ -103,6 +177,35 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		7629874EBAAE6E64DF87ACB68FB5A08E /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				A2EAFCD04DEECC2AC6B8727048A80617 /* Compression.swift */,
+				7175E21DED4337E7BBD3EF7424F315F6 /* Data+Extensions.swift */,
+				4A0925310BE76B051E1B51E7FBB37F35 /* Engine.swift */,
+				3AF39A541BA78B8472A0F9D4E3504B90 /* FoundationHTTPHandler.swift */,
+				81F95157FC4CC8593A1B1E4607562122 /* FoundationHTTPServerHandler.swift */,
+				5831A57C2E79638C447411ED69EB6C42 /* FoundationSecurity.swift */,
+				3D7E34251E9353A38AC748BB94EDC575 /* FoundationTransport.swift */,
+				37C291A02C054326B5C6022EACD814E4 /* FrameCollector.swift */,
+				1454E39E11FD28A611495E03B2015FD4 /* Framer.swift */,
+				35ED0E33A6DD024AC0E71FEF3EA74D7C /* HTTPHandler.swift */,
+				56ADCC3B462E7AE2D80872C7A66CA4A7 /* NativeEngine.swift */,
+				4FC292255BA6A323D7D1C01215CC6591 /* Security.swift */,
+				DFD212064ED1CC47B2560F6E20526B3B /* Server.swift */,
+				16D70531198624C7D8B14FF91C62FF6B /* StringHTTPHandler.swift */,
+				56CCA8582A00BBFBC2E9AFFC1C1D53A9 /* TCPTransport.swift */,
+				C9C8BC22AA74FEDA9CF44852D28F68A4 /* Transport.swift */,
+				4D2727BA14E02E7210DD6B547EA7D394 /* WebSocket.swift */,
+				A62AC07A9271D8996F97CC35856BA647 /* WebSocketServer.swift */,
+				1918C09D193EF7F62A7C2611F12AC44B /* WSCompression.swift */,
+				8ED9AF7BDFE0F03CE129D72D85FCA460 /* WSEngine.swift */,
+				C34F19E6E210C87A192216575C48E771 /* Support Files */,
+			);
+			name = Starscream;
+			path = Starscream;
 			sourceTree = "<group>";
 		};
 		778F762FD433F01DFCA7498A5D085D4A /* Targets Support Files */ = {
@@ -161,13 +264,29 @@
 			path = "Target Support Files/Pods-Demo_pod";
 			sourceTree = "<group>";
 		};
+		C34F19E6E210C87A192216575C48E771 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9357D61506695B4EDB5014C06BE56A43 /* Starscream.modulemap */,
+				21B65F09370A4D9877255EC1C47060A2 /* Starscream-dummy.m */,
+				85C44A9AB6F12498BFC8233B9D599206 /* Starscream-Info.plist */,
+				010F5C43A348BC3C417C21FA354444E2 /* Starscream-prefix.pch */,
+				ECFB158E08A6502A38761C96CB68975B /* Starscream-umbrella.h */,
+				2C1CF04602B9D61F89BCC51DEA7939B0 /* Starscream.debug.xcconfig */,
+				E6B8353DB672E6C84ABAF6B044BC47F3 /* Starscream.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				3F7CB42C1236EC1695340947C88C6176 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				34E996347E881614BBFBE9150F1B9CC3 /* Products */,
+				00B2FEDCAC8A8BACE0F9A4E951E14F8C /* Pods */,
+				E73528E650B01B2F8860B1A599DE4715 /* Products */,
 				778F762FD433F01DFCA7498A5D085D4A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -180,14 +299,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E73528E650B01B2F8860B1A599DE4715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC69CB11D6D44A41C69F106C9F415C /* Pods_Demo_pod.framework */,
+				891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0AD0BAD0E2A4E620C2F4E27CF55E0615 /* Headers */ = {
+		CC07C3BFD801BD3E0AE8C58B03CBE083 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				463F7DFEE35A39882517CAD7A21383BE /* Pods-Demo_pod-umbrella.h in Headers */,
+				C29902D764223EF009FBFB416ECCE76C /* Starscream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E308E9C375C6E26458F6F277D736E6E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434DF4FA258D260911F0D8AF5B9B9F2D /* Pods-Demo_pod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,21 +332,40 @@
 /* Begin PBXNativeTarget section */
 		43E257DC9E659F576E6ED10209AF5FF9 /* Pods-Demo_pod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 688BD22908AE3290B24D779BD99C4239 /* Build configuration list for PBXNativeTarget "Pods-Demo_pod" */;
+			buildConfigurationList = 97153176A0223AF7506A8496A7434588 /* Build configuration list for PBXNativeTarget "Pods-Demo_pod" */;
 			buildPhases = (
-				0AD0BAD0E2A4E620C2F4E27CF55E0615 /* Headers */,
-				24837223124D1D7FFC124B1B562A25F3 /* Sources */,
-				BD5C3D3A23FB9CC2F3B21FF65A04B95A /* Frameworks */,
-				98844AA0D27489E20F838CA22CB03D67 /* Resources */,
+				E308E9C375C6E26458F6F277D736E6E1 /* Headers */,
+				B9311B8288075A2A8271B146407B1F7D /* Sources */,
+				7BD519311FDE64B69519AE156EE11C41 /* Frameworks */,
+				3E7CEA27417B4103480631D277C5C667 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E468F9E1A572CBBE48160F8C0EF0D159 /* PBXTargetDependency */,
+				2768DAC4BB8590A44ACA7A9019714F3D /* PBXTargetDependency */,
+				1730A63002DA69FFEA545D5E2B0BF23D /* PBXTargetDependency */,
 			);
 			name = "Pods-Demo_pod";
 			productName = "Pods-Demo_pod";
 			productReference = 4EFC69CB11D6D44A41C69F106C9F415C /* Pods_Demo_pod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B20965A526C440E770F96AA03909BDD /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildPhases = (
+				CC07C3BFD801BD3E0AE8C58B03CBE083 /* Headers */,
+				154FBF6EDA37660C28AFFB4DE5D2B73F /* Sources */,
+				5385EC38A34EC0589572D3CA40DCD594 /* Frameworks */,
+				3B36839626C5DA32A502F9A354216F25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starscream;
+			productName = Starscream;
+			productReference = 891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -223,7 +378,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -231,18 +386,26 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 34E996347E881614BBFBE9150F1B9CC3 /* Products */;
+			productRefGroup = E73528E650B01B2F8860B1A599DE4715 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F5F644F31B8C347F55F30C1C3FCEAAE0 /* HaptikCommerceLib */,
 				43E257DC9E659F576E6ED10209AF5FF9 /* Pods-Demo_pod */,
+				9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		98844AA0D27489E20F838CA22CB03D67 /* Resources */ = {
+		3B36839626C5DA32A502F9A354216F25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7CEA27417B4103480631D277C5C667 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,7 +415,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		253FCBAF6C8A6E40ABFE51AD34080D03 /* [CP] Copy XCFrameworks */ = {
+		8BF82AAF96F193C18135F87B21827288 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,7 +432,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/HaptikCommerceLib/HaptikCommerceLib-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B7A712F4E0A0809BFB1FC88C77D7D13C /* [CP] Copy dSYMs */ = {
+		B24D9AAC0F42616BC1A58ECE2F792E54 /* [CP] Copy dSYMs */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,26 +452,85 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		24837223124D1D7FFC124B1B562A25F3 /* Sources */ = {
+		154FBF6EDA37660C28AFFB4DE5D2B73F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				872D1FF96235D9B48FBAD3FCE3155E81 /* Pods-Demo_pod-dummy.m in Sources */,
+				AB1AD83A437DDE40BA4AB085A8AC07AF /* Compression.swift in Sources */,
+				0942E1C4C4472ADB57AAB7B04842E927 /* Data+Extensions.swift in Sources */,
+				6695FE38668F9A6D6F2BCB801FC7BC73 /* Engine.swift in Sources */,
+				19B6CDD33E1F264FB384E96460351D3D /* FoundationHTTPHandler.swift in Sources */,
+				355BE414C23C0BB39226BE8C2896B4AF /* FoundationHTTPServerHandler.swift in Sources */,
+				69E19907D715DC80E792060F42683A1A /* FoundationSecurity.swift in Sources */,
+				4069E1DE53A24ADE7790EE81AF56D6A2 /* FoundationTransport.swift in Sources */,
+				8792257205E12ADF151AAC6A7B94BCD2 /* FrameCollector.swift in Sources */,
+				7A0783EF874180DF830E807C5E734089 /* Framer.swift in Sources */,
+				CD547ACB9E86089BA59A7AFF10745067 /* HTTPHandler.swift in Sources */,
+				2456728DF30B1E8B88C4ADD7D98CD88E /* NativeEngine.swift in Sources */,
+				CE48E9CCE5AA59C2C78F62461949F55F /* Security.swift in Sources */,
+				1EA1C772BAB5D78A10F2D60CF1A73352 /* Server.swift in Sources */,
+				725EB0FC0F61D89840C5336C4BAE3B81 /* Starscream-dummy.m in Sources */,
+				BC150B8D348F34FD661FE632BF68F458 /* StringHTTPHandler.swift in Sources */,
+				DF7BAA7C2BFDA594F4ACCB3D0C25519C /* TCPTransport.swift in Sources */,
+				F91E43A80F608B0C3DE659EBC0E86AD9 /* Transport.swift in Sources */,
+				AA4BAF160587CCA00C17B27D546451CA /* WebSocket.swift in Sources */,
+				7044E3EF904F7558EBC6AD63E9AAA5B4 /* WebSocketServer.swift in Sources */,
+				7151B330A9201DCB63085900F3D285AA /* WSCompression.swift in Sources */,
+				C319FEFE6FF52FDDF818CF6D795CEAB6 /* WSEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9311B8288075A2A8271B146407B1F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA322ABE2B3B7528E20388B96EEFA65 /* Pods-Demo_pod-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E468F9E1A572CBBE48160F8C0EF0D159 /* PBXTargetDependency */ = {
+		1730A63002DA69FFEA545D5E2B0BF23D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = 999B9B43738444816BA1F2CC6292B680 /* PBXContainerItemProxy */;
+		};
+		2768DAC4BB8590A44ACA7A9019714F3D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HaptikCommerceLib;
 			target = F5F644F31B8C347F55F30C1C3FCEAAE0 /* HaptikCommerceLib */;
-			targetProxy = 5F2E8D06474CE93524F2903AD0E85E76 /* PBXContainerItemProxy */;
+			targetProxy = 34788C268BB5F875455BECE781292A48 /* PBXContainerItemProxy */;
+		};
+		8DB1371D217ECA2095608C94D3FD09BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = 1C6BD8A76D3A4433904449BFD669453F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		30FF2CA117BE322CB4698C99E4930673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 473CB2D026986830CA3690BF81CCD0BD /* HaptikCommerceLib.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -437,12 +659,126 @@
 			};
 			name = Debug;
 		};
-		865965F1F593984A0F7901C32160700F /* Debug */ = {
+		79774D682F8B29018060CB77604DF233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6B8353DB672E6C84ABAF6B044BC47F3 /* Starscream.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D6755382529F9CDF64665A67123DAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9EDFD1EEAC9F1B80D141D65935F52C /* Pods-Demo_pod.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo_pod/Pods-Demo_pod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo_pod/Pods-Demo_pod.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0E8993BF2DF77630BD2E4AF3D67195F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68EC690B455A71797BB4AC9CBC1AEFCE /* Pods-Demo_pod.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo_pod/Pods-Demo_pod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo_pod/Pods-Demo_pod.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C8D3BCBD1CD6F8688A9834BA71BC750D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C3376895021B2AEAC34CB5458F01914A /* HaptikCommerceLib.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,30 +790,11 @@
 			};
 			name = Debug;
 		};
-		94350A88A126D4AB1652D2E50C06FDA9 /* Release */ = {
+		D2A90736C91952E71AB0B4507CA5FD54 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 473CB2D026986830CA3690BF81CCD0BD /* HaptikCommerceLib.release.xcconfig */;
+			baseConfigurationReference = 2C1CF04602B9D61F89BCC51DEA7939B0 /* Starscream.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C62685A7A753200A856D2F238C23F080 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC9EDFD1EEAC9F1B80D141D65935F52C /* Pods-Demo_pod.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -486,66 +803,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Demo_pod/Pods-Demo_pod-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Demo_pod/Pods-Demo_pod.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		CE05A98676A667D513177FC867214E3A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68EC690B455A71797BB4AC9CBC1AEFCE /* Pods-Demo_pod.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Demo_pod/Pods-Demo_pod-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Demo_pod/Pods-Demo_pod.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -559,20 +837,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		688BD22908AE3290B24D779BD99C4239 /* Build configuration list for PBXNativeTarget "Pods-Demo_pod" */ = {
+		7B20965A526C440E770F96AA03909BDD /* Build configuration list for PBXNativeTarget "Starscream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C62685A7A753200A856D2F238C23F080 /* Debug */,
-				CE05A98676A667D513177FC867214E3A /* Release */,
+				D2A90736C91952E71AB0B4507CA5FD54 /* Debug */,
+				79774D682F8B29018060CB77604DF233 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9973F086B03D5281833B282C0968F2AE /* Build configuration list for PBXAggregateTarget "HaptikCommerceLib" */ = {
+		97153176A0223AF7506A8496A7434588 /* Build configuration list for PBXNativeTarget "Pods-Demo_pod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				865965F1F593984A0F7901C32160700F /* Debug */,
-				94350A88A126D4AB1652D2E50C06FDA9 /* Release */,
+				9D6755382529F9CDF64665A67123DAFC /* Debug */,
+				A0E8993BF2DF77630BD2E4AF3D67195F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D20E30F76CAB0A78BF0175F340EFFC6 /* Build configuration list for PBXAggregateTarget "HaptikCommerceLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D3BCBD1CD6F8688A9834BA71BC750D /* Debug */,
+				30FF2CA117BE322CB4698C99E4930673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
