@@ -82,5 +82,5 @@ install_bcsymbolmap() {
     rsync --delete -av "${RSYNC_PROTECT_TMP_FILES[@]}" --filter "- CVS/" --filter "- .svn/" --filter "- .git/" --filter "- .hg/" --filter "- Headers" --filter "- PrivateHeaders" --filter "- Modules" "${bcsymbolmap_path}" "${destination}"
 }
 
-install_dsym "/Users/Ketan/Documents/Repo/Buzzo-Public/Frameworks/HaptikCommerceLib/HaptikCommerce.dSYMs/HaptikCommerce.framework.ios-arm64_i386_x86_64-simulator.dSYM"
-install_dsym "/Users/Ketan/Documents/Repo/Buzzo-Public/Frameworks/HaptikCommerceLib/HaptikCommerce.dSYMs/HaptikCommerce.framework.ios-arm64_armv7.dSYM"
+install_dsym "/Users/shreyansh/Desktop/codes/BuzzoLib-iOS/Frameworks/HaptikCommerceLib/HaptikCommerce.dSYMs/HaptikCommerce.framework.ios-arm64_i386_x86_64-simulator.dSYM"
+install_dsym "/Users/shreyansh/Desktop/codes/BuzzoLib-iOS/Frameworks/HaptikCommerceLib/HaptikCommerce.dSYMs/HaptikCommerce.framework.ios-arm64_armv7.dSYM"
