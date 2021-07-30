@@ -1,6 +1,16 @@
 # CHANGELOG
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+## [0.2.2] - (30/07/21) - Sprint 12 iOS
+
+### Enhancement
+- Update Microphone Permission flow
+- Change Audio channels
+
+### Bugs
+- Fixed Mute status for non-voice first
+
 ## [0.2.1] - (14/06/21) - Sprint 9 iOS
 
 ### Enhancement
