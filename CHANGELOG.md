@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.2.3] - (05/08/21) - Sprint 13 iOS
+
+### Bugs
+- Fixes for Voice module Crash
+
 ## [0.2.2] - (30/07/21) - Sprint 12 iOS
 
 ### Enhancement
