@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HaptikCommerceLib"
-  spec.version      = "0.2.2"
+  spec.version      = "0.2.3"
   spec.summary      = "The Buzzo SDK enables brands to turn their app into a Shopping and Ordering Assistant."
 
   spec.description  = <<-DESC
