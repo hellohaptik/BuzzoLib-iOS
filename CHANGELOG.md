@@ -1,6 +1,14 @@
 # CHANGELOG
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+## [0.2.6] - (22/09/21) - Sprint 13 iOS
+
+### Bug Fixes
+- crash fix while mic is being used by any other app
+- Voice response was not entirely spoken
+
+## [0.2.5] - (05/08/21) - Sprint 13 iOS
+- crash fixes
 
 ## [0.2.3] - (05/08/21) - Sprint 13 iOS
 
@@ -24,9 +32,9 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 ## [0.2.0] - (31/05/21) - Sprint 8 iOS
 
 ### Features
-- Add Google TTS support 
-- Add Reverie TTS support 
-- Add Reverie ASR support 
+- Add Google TTS support
+- Add Reverie TTS support
+- Add Reverie ASR support
 - Handle Language change event
 
 ### Bugs
@@ -37,7 +45,7 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 ## [0.1.0] - (17/11/20) - X iOS
 
 ### Features
-- Add TTS support 
+- Add TTS support
 - Add ASR support
-- Add Language Support for Hindi, Eng-US, Eng-UK 
+- Add Language Support for Hindi, Eng-US, Eng-UK
 - Add`HPExternalEvent`
