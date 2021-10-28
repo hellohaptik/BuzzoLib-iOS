@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
 // swift-module-flags: -target arm64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HaptikCommerce
 import AVFoundation
 import Foundation
@@ -9,6 +9,7 @@ import Starscream
 import Swift
 import UIKit
 import WebKit
+import _Concurrency
 @_inheritsConvenienceInitializers @objc public class HPAttributesBuilder : ObjectiveC.NSObject {
   @objc public var sessionID: Swift.String
   @objc public var sourceController: Swift.String
@@ -44,8 +45,8 @@ import WebKit
   @objc public var headers: [Swift.String : Swift.String]
   @objc public var customQueryData: [Swift.String : Swift.String]?
   @objc public class func build(data builderData: @escaping (HaptikCommerce.HPAttributesBuilder) -> Swift.Void) -> Self
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc public protocol HPExternalEvent {
   @objc func didReceiveHaptikEvent(_ eventData: Swift.String)
@@ -56,8 +57,8 @@ import WebKit
   case englishUS
   case englishIN
   case hindi
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
@@ -66,8 +67,8 @@ import WebKit
   case alwaysOn
   case alwaysOff
   case whenSpokenTo
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
@@ -76,8 +77,8 @@ import WebKit
   case appleNative
   case googleTTS
   case reverieTTS
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
@@ -85,8 +86,8 @@ import WebKit
 @objc public enum TTSVoiceType : Swift.Int {
   case standard
   case wavenet
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
@@ -94,8 +95,8 @@ import WebKit
 @objc public enum TTSVoice : Swift.Int {
   case male
   case female
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
@@ -103,8 +104,8 @@ import WebKit
 @objc public enum ASRMode : Swift.Int {
   case appleNative
   case reverieASR
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
@@ -114,7 +115,7 @@ import WebKit
   @objc public var delegate: HaptikCommerce.HPExternalEvent?
   @objc deinit
 }
-extension HaptikCommerceLib {
+extension HaptikCommerce.HaptikCommerceLib {
   @objc dynamic public func loadConversation(launchController: UIKit.UIViewController, attributes: HaptikCommerce.HPAttributesBuilder)
   @objc dynamic public func unregister()
   @objc dynamic public func updateEventData(eventName: Swift.String, eventData: [Swift.String : Any])
