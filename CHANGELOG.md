@@ -1,6 +1,11 @@
 # CHANGELOG
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+## [0.2.7] - (28/10/21) - Sprint 18 iOS
+
+### Enhancements
+- Update for ios15 support. Updated Xcode12 to xcode13
+
 ## [0.2.6] - (22/09/21) - Sprint 13 iOS
 
 ### Bug Fixes
