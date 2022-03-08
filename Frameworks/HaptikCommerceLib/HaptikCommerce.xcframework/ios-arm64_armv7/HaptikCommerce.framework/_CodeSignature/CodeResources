@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/HaptikCommerce-Swift.h</key>
 		<data>
-		dcVF4nDIZInKtkZVGtjYCodMk1w=
+		dGINmD6isEduRIEPAhLs3usiKew=
 		</data>
 		<key>Headers/HaptikCommerce.h</key>
 		<data>
@@ -14,67 +14,67 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gH1B0pwtYORb8Li9LH1GVnNYAvI=
+		eG5PXo7mDSSwPQpf2vuG0CLO0bo=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm.swiftdoc</key>
 		<data>
-		sXFVOxrGJ+jhoAuqBIQvZHTCSKA=
+		8Z9MX6SkjI82ltDEiIWF+6Bop2w=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm.swiftinterface</key>
 		<data>
-		Wafvv+jBYAQNXKl6ZD1r7a1R3YI=
+		COWVS/P57X3u1ebzsNNoVAZbNvI=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm.swiftmodule</key>
 		<data>
-		2jVcVGJiJxKPF/g3Tono07cIJJQ=
+		AEnewoVuRPU7PRntBTeQ2/+Yvls=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		jvEbxT8XWs1d8roqElgGVsH4uf8=
+		E0rg+qPSS0y69IDF4AZiDHAcskk=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Xa4zBIZsF8jfdMIPZDNxH8b6YWo=
+		jq19XKbqGf4/LmbcoQStdinXqKY=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		GifnrJ6GpJRUVvdawgUscf09/xY=
+		12l7KkWgvoN+T1CsRd3yEl91Dwk=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		jvEbxT8XWs1d8roqElgGVsH4uf8=
+		E0rg+qPSS0y69IDF4AZiDHAcskk=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		Xa4zBIZsF8jfdMIPZDNxH8b6YWo=
+		jq19XKbqGf4/LmbcoQStdinXqKY=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		GifnrJ6GpJRUVvdawgUscf09/xY=
+		12l7KkWgvoN+T1CsRd3yEl91Dwk=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		sXFVOxrGJ+jhoAuqBIQvZHTCSKA=
+		8Z9MX6SkjI82ltDEiIWF+6Bop2w=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<data>
-		Wafvv+jBYAQNXKl6ZD1r7a1R3YI=
+		COWVS/P57X3u1ebzsNNoVAZbNvI=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		2jVcVGJiJxKPF/g3Tono07cIJJQ=
+		AEnewoVuRPU7PRntBTeQ2/+Yvls=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/armv7.swiftdoc</key>
 		<data>
-		sXFVOxrGJ+jhoAuqBIQvZHTCSKA=
+		8Z9MX6SkjI82ltDEiIWF+6Bop2w=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/armv7.swiftinterface</key>
 		<data>
-		Wafvv+jBYAQNXKl6ZD1r7a1R3YI=
+		COWVS/P57X3u1ebzsNNoVAZbNvI=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		2jVcVGJiJxKPF/g3Tono07cIJJQ=
+		AEnewoVuRPU7PRntBTeQ2/+Yvls=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -99,11 +99,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dcVF4nDIZInKtkZVGtjYCodMk1w=
+			dGINmD6isEduRIEPAhLs3usiKew=
 			</data>
 			<key>hash2</key>
 			<data>
-			+EVoQH5OAOstrFpp4ywyfMpsDwJlEfdN9b1V9ZJt+Tc=
+			kax3SVv7F5h3uflUXy0wXPzjs/fr4vceVV+/IXhLdhI=
 			</data>
 		</dict>
 		<key>Headers/HaptikCommerce.h</key>
@@ -121,165 +121,165 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sXFVOxrGJ+jhoAuqBIQvZHTCSKA=
+			8Z9MX6SkjI82ltDEiIWF+6Bop2w=
 			</data>
 			<key>hash2</key>
 			<data>
-			il7aUAhlBdwr0/ot6BsdDZyZ1Tq8J18UUNG7NlHh1EA=
+			R0OSnpBRPsVXtOKWrp90+Zvhyx5LkPXGdr192QDkEAw=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/arm.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Wafvv+jBYAQNXKl6ZD1r7a1R3YI=
+			COWVS/P57X3u1ebzsNNoVAZbNvI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ztQViJadXtT9L+ymIx+02DywVi/QSlqWYlo5ub7zMHY=
+			v7QhGgY+ABiVDM/NPlhkyQyqsn8sfWLutU+2fuPdoF0=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2jVcVGJiJxKPF/g3Tono07cIJJQ=
+			AEnewoVuRPU7PRntBTeQ2/+Yvls=
 			</data>
 			<key>hash2</key>
 			<data>
-			eKTSRjyvWnt/IZGurud0ubSTYSXIDmseNK3QNcFPKmE=
+			09xlMmySTeAple2pR8ywegZiNBWiN48SCWCt2mSSuF8=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jvEbxT8XWs1d8roqElgGVsH4uf8=
+			E0rg+qPSS0y69IDF4AZiDHAcskk=
 			</data>
 			<key>hash2</key>
 			<data>
-			auNWG0eVZdjmxqqsXaUqpCzO14sbVNOiHpYLHJEuZpw=
+			z4XVKOJH2BnPax81Fgz/2V+E+qvVLRFJ7P3WwCJqkqc=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Xa4zBIZsF8jfdMIPZDNxH8b6YWo=
+			jq19XKbqGf4/LmbcoQStdinXqKY=
 			</data>
 			<key>hash2</key>
 			<data>
-			nF9RLDeXTz8P1eR067OwckyyhSOwZLxUV2F46y9/kkg=
+			qF3SNIMNQTWwPRJkkJ0+qbLW/4d13EoDuFau3nNUl/I=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GifnrJ6GpJRUVvdawgUscf09/xY=
+			12l7KkWgvoN+T1CsRd3yEl91Dwk=
 			</data>
 			<key>hash2</key>
 			<data>
-			6cyFZc5cx6J+HKUhThlsXrmCK7fAg8+1gB5VqqVdV3E=
+			gPUH60JNAQ/hB5pkSt/mgpmg9ynS1jN9OqJdsOpxKoU=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jvEbxT8XWs1d8roqElgGVsH4uf8=
+			E0rg+qPSS0y69IDF4AZiDHAcskk=
 			</data>
 			<key>hash2</key>
 			<data>
-			auNWG0eVZdjmxqqsXaUqpCzO14sbVNOiHpYLHJEuZpw=
+			z4XVKOJH2BnPax81Fgz/2V+E+qvVLRFJ7P3WwCJqkqc=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Xa4zBIZsF8jfdMIPZDNxH8b6YWo=
+			jq19XKbqGf4/LmbcoQStdinXqKY=
 			</data>
 			<key>hash2</key>
 			<data>
-			nF9RLDeXTz8P1eR067OwckyyhSOwZLxUV2F46y9/kkg=
+			qF3SNIMNQTWwPRJkkJ0+qbLW/4d13EoDuFau3nNUl/I=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GifnrJ6GpJRUVvdawgUscf09/xY=
+			12l7KkWgvoN+T1CsRd3yEl91Dwk=
 			</data>
 			<key>hash2</key>
 			<data>
-			6cyFZc5cx6J+HKUhThlsXrmCK7fAg8+1gB5VqqVdV3E=
+			gPUH60JNAQ/hB5pkSt/mgpmg9ynS1jN9OqJdsOpxKoU=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sXFVOxrGJ+jhoAuqBIQvZHTCSKA=
+			8Z9MX6SkjI82ltDEiIWF+6Bop2w=
 			</data>
 			<key>hash2</key>
 			<data>
-			il7aUAhlBdwr0/ot6BsdDZyZ1Tq8J18UUNG7NlHh1EA=
+			R0OSnpBRPsVXtOKWrp90+Zvhyx5LkPXGdr192QDkEAw=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Wafvv+jBYAQNXKl6ZD1r7a1R3YI=
+			COWVS/P57X3u1ebzsNNoVAZbNvI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ztQViJadXtT9L+ymIx+02DywVi/QSlqWYlo5ub7zMHY=
+			v7QhGgY+ABiVDM/NPlhkyQyqsn8sfWLutU+2fuPdoF0=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2jVcVGJiJxKPF/g3Tono07cIJJQ=
+			AEnewoVuRPU7PRntBTeQ2/+Yvls=
 			</data>
 			<key>hash2</key>
 			<data>
-			eKTSRjyvWnt/IZGurud0ubSTYSXIDmseNK3QNcFPKmE=
+			09xlMmySTeAple2pR8ywegZiNBWiN48SCWCt2mSSuF8=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/armv7.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sXFVOxrGJ+jhoAuqBIQvZHTCSKA=
+			8Z9MX6SkjI82ltDEiIWF+6Bop2w=
 			</data>
 			<key>hash2</key>
 			<data>
-			il7aUAhlBdwr0/ot6BsdDZyZ1Tq8J18UUNG7NlHh1EA=
+			R0OSnpBRPsVXtOKWrp90+Zvhyx5LkPXGdr192QDkEAw=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/armv7.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Wafvv+jBYAQNXKl6ZD1r7a1R3YI=
+			COWVS/P57X3u1ebzsNNoVAZbNvI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ztQViJadXtT9L+ymIx+02DywVi/QSlqWYlo5ub7zMHY=
+			v7QhGgY+ABiVDM/NPlhkyQyqsn8sfWLutU+2fuPdoF0=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2jVcVGJiJxKPF/g3Tono07cIJJQ=
+			AEnewoVuRPU7PRntBTeQ2/+Yvls=
 			</data>
 			<key>hash2</key>
 			<data>
-			eKTSRjyvWnt/IZGurud0ubSTYSXIDmseNK3QNcFPKmE=
+			09xlMmySTeAple2pR8ywegZiNBWiN48SCWCt2mSSuF8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
