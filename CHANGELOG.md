@@ -1,6 +1,12 @@
 # CHANGELOG
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+## [0.2.8] - (08/03/22)
+
+### Enhancements
+- Minor Enhancements
+
 ## [0.2.7] - (28/10/21) - Sprint 18 iOS
 
 ### Enhancements
