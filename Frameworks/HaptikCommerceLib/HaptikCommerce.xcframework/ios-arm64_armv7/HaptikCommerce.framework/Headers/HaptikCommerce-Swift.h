@@ -247,8 +247,8 @@ enum TTSVoiceType : NSInteger;
 /// }];
 ///
 /// \endcode
-SWIFT_CLASS("_TtC14HaptikCommerce19HPAttributesBuilder")
-@interface HPAttributesBuilder : NSObject
+SWIFT_CLASS("_TtC14HaptikCommerce27HPCommerceAttributesBuilder")
+@interface HPCommerceAttributesBuilder : NSObject
 /// This is the session id which corresponds to the Authtoken to be sent to the Master API when making cart related calls.
 @property (nonatomic, copy) NSString * _Nonnull sessionID;
 /// The activity from which SDK is to be called. This is in regards with android activity. iOS SDK may/may not require this parameter. This is not passed to the url.
@@ -293,7 +293,7 @@ SWIFT_CLASS("_TtC14HaptikCommerce19HPAttributesBuilder")
 ///
 /// returns:
 /// returns validated object to pass IVA launch function
-+ (nonnull instancetype)buildWithData:(void (^ _Nonnull)(HPAttributesBuilder * _Nonnull))builderData SWIFT_WARN_UNUSED_RESULT;
++ (nonnull instancetype)buildWithData:(void (^ _Nonnull)(HPCommerceAttributesBuilder * _Nonnull))builderData SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -431,7 +431,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) HaptikCommer
 ///
 /// \param attributes <code>HPAttributesBuilder</code> object containing configuration params for chat screen
 ///
-- (void)loadConversationWithLaunchController:(UIViewController * _Nonnull)launchController attributes:(HPAttributesBuilder * _Nonnull)attributes;
+- (void)loadConversationWithLaunchController:(UIViewController * _Nonnull)launchController attributes:(HPCommerceAttributesBuilder * _Nonnull)attributes;
 /// Signouts the current user from Haptik.
 /// Called after application user logged out.
 - (void)unregister;
@@ -737,8 +737,8 @@ enum TTSVoiceType : NSInteger;
 /// }];
 ///
 /// \endcode
-SWIFT_CLASS("_TtC14HaptikCommerce19HPAttributesBuilder")
-@interface HPAttributesBuilder : NSObject
+SWIFT_CLASS("_TtC14HaptikCommerce27HPCommerceAttributesBuilder")
+@interface HPCommerceAttributesBuilder : NSObject
 /// This is the session id which corresponds to the Authtoken to be sent to the Master API when making cart related calls.
 @property (nonatomic, copy) NSString * _Nonnull sessionID;
 /// The activity from which SDK is to be called. This is in regards with android activity. iOS SDK may/may not require this parameter. This is not passed to the url.
@@ -783,7 +783,7 @@ SWIFT_CLASS("_TtC14HaptikCommerce19HPAttributesBuilder")
 ///
 /// returns:
 /// returns validated object to pass IVA launch function
-+ (nonnull instancetype)buildWithData:(void (^ _Nonnull)(HPAttributesBuilder * _Nonnull))builderData SWIFT_WARN_UNUSED_RESULT;
++ (nonnull instancetype)buildWithData:(void (^ _Nonnull)(HPCommerceAttributesBuilder * _Nonnull))builderData SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -921,7 +921,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) HaptikCommer
 ///
 /// \param attributes <code>HPAttributesBuilder</code> object containing configuration params for chat screen
 ///
-- (void)loadConversationWithLaunchController:(UIViewController * _Nonnull)launchController attributes:(HPAttributesBuilder * _Nonnull)attributes;
+- (void)loadConversationWithLaunchController:(UIViewController * _Nonnull)launchController attributes:(HPCommerceAttributesBuilder * _Nonnull)attributes;
 /// Signouts the current user from Haptik.
 /// Called after application user logged out.
 - (void)unregister;

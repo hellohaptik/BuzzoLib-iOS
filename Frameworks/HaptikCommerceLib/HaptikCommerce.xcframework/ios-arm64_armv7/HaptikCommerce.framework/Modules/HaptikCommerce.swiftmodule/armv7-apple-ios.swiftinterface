@@ -10,7 +10,7 @@ import Swift
 import UIKit
 import WebKit
 import _Concurrency
-@_inheritsConvenienceInitializers @objc public class HPAttributesBuilder : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc public class HPCommerceAttributesBuilder : ObjectiveC.NSObject {
   @objc public var sessionID: Swift.String
   @objc public var sourceController: Swift.String
   @objc public var category: Swift.String
@@ -44,7 +44,7 @@ import _Concurrency
   @objc public var voiceFirst: Swift.Bool
   @objc public var headers: [Swift.String : Swift.String]
   @objc public var customQueryData: [Swift.String : Swift.String]?
-  @objc public class func build(data builderData: @escaping (HaptikCommerce.HPAttributesBuilder) -> Swift.Void) -> Self
+  @objc public class func build(data builderData: @escaping (HaptikCommerce.HPCommerceAttributesBuilder) -> Swift.Void) -> Self
   @objc override dynamic public init()
   @objc deinit
 }
@@ -116,7 +116,7 @@ import _Concurrency
   @objc deinit
 }
 extension HaptikCommerce.HaptikCommerceLib {
-  @objc dynamic public func loadConversation(launchController: UIKit.UIViewController, attributes: HaptikCommerce.HPAttributesBuilder)
+  @objc dynamic public func loadConversation(launchController: UIKit.UIViewController, attributes: HaptikCommerce.HPCommerceAttributesBuilder)
   @objc dynamic public func unregister()
   @objc dynamic public func updateEventData(eventName: Swift.String, eventData: [Swift.String : Any])
 }
