@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.0.0)] - (02/06/22) 
+### Enhancements
+- Fix conflicts with other haptik modules
+- Reduce reverie TTS voice 
+
 ## [0.2.8] - (08/03/22)
 
 ### Enhancements

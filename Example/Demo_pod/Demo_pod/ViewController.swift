@@ -28,7 +28,7 @@ class ViewController: UIViewController, HPExternalEvent{
     
     @IBAction func launchPressed(_ sender: Any) {
         
-        let attributes  =    HPAttributesBuilder.build {  (builder) in
+        let attributes  =    HPCommerceAttributesBuilder.build {  (builder) in
             
             builder.category = "grocery"
             builder.voiceFirst = true
