@@ -27,11 +27,11 @@
 		1EA1C772BAB5D78A10F2D60CF1A73352 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD212064ED1CC47B2560F6E20526B3B /* Server.swift */; };
 		2456728DF30B1E8B88C4ADD7D98CD88E /* NativeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADCC3B462E7AE2D80872C7A66CA4A7 /* NativeEngine.swift */; };
 		355BE414C23C0BB39226BE8C2896B4AF /* FoundationHTTPServerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F95157FC4CC8593A1B1E4607562122 /* FoundationHTTPServerHandler.swift */; };
-		3BA322ABE2B3B7528E20388B96EEFA65 /* Pods-Demo_pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DA4BCF50844022A60A7296892D5F26 /* Pods-Demo_pod-dummy.m */; };
+		3D005C9F1DC546AB5931A809F9AD576C /* Pods-Demo_pod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21CB3D94306D2A92CDFDB6CA4A69A4B7 /* Pods-Demo_pod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4069E1DE53A24ADE7790EE81AF56D6A2 /* FoundationTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E34251E9353A38AC748BB94EDC575 /* FoundationTransport.swift */; };
-		434DF4FA258D260911F0D8AF5B9B9F2D /* Pods-Demo_pod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21CB3D94306D2A92CDFDB6CA4A69A4B7 /* Pods-Demo_pod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6695FE38668F9A6D6F2BCB801FC7BC73 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0925310BE76B051E1B51E7FBB37F35 /* Engine.swift */; };
 		69E19907D715DC80E792060F42683A1A /* FoundationSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5831A57C2E79638C447411ED69EB6C42 /* FoundationSecurity.swift */; };
+		6A9CB316ABDB73CB006F254EE3E70249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7044E3EF904F7558EBC6AD63E9AAA5B4 /* WebSocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62AC07A9271D8996F97CC35856BA647 /* WebSocketServer.swift */; };
 		7151B330A9201DCB63085900F3D285AA /* WSCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1918C09D193EF7F62A7C2611F12AC44B /* WSCompression.swift */; };
 		725EB0FC0F61D89840C5336C4BAE3B81 /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B65F09370A4D9877255EC1C47060A2 /* Starscream-dummy.m */; };
@@ -40,13 +40,13 @@
 		A663B6C806568EA6B8C3BD240CF69EBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AA4BAF160587CCA00C17B27D546451CA /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2727BA14E02E7210DD6B547EA7D394 /* WebSocket.swift */; };
 		AB1AD83A437DDE40BA4AB085A8AC07AF /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EAFCD04DEECC2AC6B8727048A80617 /* Compression.swift */; };
+		BA5092D85F8CCE11A0DAEA955CAC38CA /* Pods-Demo_pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DA4BCF50844022A60A7296892D5F26 /* Pods-Demo_pod-dummy.m */; };
 		BC150B8D348F34FD661FE632BF68F458 /* StringHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D70531198624C7D8B14FF91C62FF6B /* StringHTTPHandler.swift */; };
 		C29902D764223EF009FBFB416ECCE76C /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECFB158E08A6502A38761C96CB68975B /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C319FEFE6FF52FDDF818CF6D795CEAB6 /* WSEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9AF7BDFE0F03CE129D72D85FCA460 /* WSEngine.swift */; };
 		CD547ACB9E86089BA59A7AFF10745067 /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ED0E33A6DD024AC0E71FEF3EA74D7C /* HTTPHandler.swift */; };
 		CE48E9CCE5AA59C2C78F62461949F55F /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC292255BA6A323D7D1C01215CC6591 /* Security.swift */; };
 		DF7BAA7C2BFDA594F4ACCB3D0C25519C /* TCPTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CCA8582A00BBFBC2E9AFFC1C1D53A9 /* TCPTransport.swift */; };
-		F4A18B241231C7FB70555F6784D2FBC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F91E43A80F608B0C3DE659EBC0E86AD9 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C8BC22AA74FEDA9CF44852D28F68A4 /* Transport.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,14 +58,14 @@
 			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
 			remoteInfo = Starscream;
 		};
-		34788C268BB5F875455BECE781292A48 /* PBXContainerItemProxy */ = {
+		C5082599A822741D3345BF5187A8F7E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F5F644F31B8C347F55F30C1C3FCEAAE0;
 			remoteInfo = HaptikCommerceLib;
 		};
-		999B9B43738444816BA1F2CC6292B680 /* PBXContainerItemProxy */ = {
+		F41857450BE2400BE238E1FD97EE3585 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -77,6 +77,7 @@
 /* Begin PBXFileReference section */
 		010F5C43A348BC3C417C21FA354444E2 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
 		0144D27F7FD1B60DB9273FAE16C0B955 /* Pods-Demo_pod-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo_pod-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0E6741716391E94665532BC5962F1B94 /* HaptikCommerceLib-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "HaptikCommerceLib-copy-dsyms.sh"; sourceTree = "<group>"; };
 		1454E39E11FD28A611495E03B2015FD4 /* Framer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Framer.swift; path = Sources/Framer/Framer.swift; sourceTree = "<group>"; };
 		16D70531198624C7D8B14FF91C62FF6B /* StringHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringHTTPHandler.swift; path = Sources/Framer/StringHTTPHandler.swift; sourceTree = "<group>"; };
 		1918C09D193EF7F62A7C2611F12AC44B /* WSCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSCompression.swift; path = Sources/Compression/WSCompression.swift; sourceTree = "<group>"; };
@@ -86,17 +87,18 @@
 		2C1CF04602B9D61F89BCC51DEA7939B0 /* Starscream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.debug.xcconfig; sourceTree = "<group>"; };
 		35ED0E33A6DD024AC0E71FEF3EA74D7C /* HTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHandler.swift; path = Sources/Framer/HTTPHandler.swift; sourceTree = "<group>"; };
 		37C291A02C054326B5C6022EACD814E4 /* FrameCollector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameCollector.swift; path = Sources/Framer/FrameCollector.swift; sourceTree = "<group>"; };
+		3A18CAF12CE0320A73D4D316E9754310 /* HaptikCommerceLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HaptikCommerceLib.release.xcconfig; sourceTree = "<group>"; };
 		3AF39A541BA78B8472A0F9D4E3504B90 /* FoundationHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPHandler.swift; path = Sources/Framer/FoundationHTTPHandler.swift; sourceTree = "<group>"; };
 		3D7E34251E9353A38AC748BB94EDC575 /* FoundationTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationTransport.swift; path = Sources/Transport/FoundationTransport.swift; sourceTree = "<group>"; };
-		473CB2D026986830CA3690BF81CCD0BD /* HaptikCommerceLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HaptikCommerceLib.release.xcconfig; sourceTree = "<group>"; };
 		4A0925310BE76B051E1B51E7FBB37F35 /* Engine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Engine.swift; path = Sources/Engine/Engine.swift; sourceTree = "<group>"; };
 		4D2727BA14E02E7210DD6B547EA7D394 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
-		4EFC69CB11D6D44A41C69F106C9F415C /* Pods_Demo_pod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Demo_pod.framework; path = "Pods-Demo_pod.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFC69CB11D6D44A41C69F106C9F415C /* Pods-Demo_pod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Demo_pod"; path = Pods_Demo_pod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC292255BA6A323D7D1C01215CC6591 /* Security.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Security.swift; path = Sources/Security/Security.swift; sourceTree = "<group>"; };
 		56ADCC3B462E7AE2D80872C7A66CA4A7 /* NativeEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeEngine.swift; path = Sources/Engine/NativeEngine.swift; sourceTree = "<group>"; };
 		56BDBD89728EC8B5F811C1D943B11CB0 /* Pods-Demo_pod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo_pod-Info.plist"; sourceTree = "<group>"; };
 		56CCA8582A00BBFBC2E9AFFC1C1D53A9 /* TCPTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPTransport.swift; path = Sources/Transport/TCPTransport.swift; sourceTree = "<group>"; };
 		5831A57C2E79638C447411ED69EB6C42 /* FoundationSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationSecurity.swift; path = Sources/Security/FoundationSecurity.swift; sourceTree = "<group>"; };
+		649D8BC972D31309970CFE519F412543 /* HaptikCommerceLib-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "HaptikCommerceLib-xcframeworks.sh"; sourceTree = "<group>"; };
 		68EC690B455A71797BB4AC9CBC1AEFCE /* Pods-Demo_pod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo_pod.release.xcconfig"; sourceTree = "<group>"; };
 		6FD71CCF3CA935580894C87B5ACA5388 /* HaptikCommerce.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = HaptikCommerce.xcframework; path = Frameworks/HaptikCommerceLib/HaptikCommerce.xcframework; sourceTree = "<group>"; };
 		7175E21DED4337E7BBD3EF7424F315F6 /* Data+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extensions.swift"; path = "Sources/DataBytes/Data+Extensions.swift"; sourceTree = "<group>"; };
@@ -105,7 +107,7 @@
 		80DA4BCF50844022A60A7296892D5F26 /* Pods-Demo_pod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo_pod-dummy.m"; sourceTree = "<group>"; };
 		81F95157FC4CC8593A1B1E4607562122 /* FoundationHTTPServerHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPServerHandler.swift; path = Sources/Framer/FoundationHTTPServerHandler.swift; sourceTree = "<group>"; };
 		85C44A9AB6F12498BFC8233B9D599206 /* Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Starscream-Info.plist"; sourceTree = "<group>"; };
-		891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		891B2270823847ED23F2ECFC28F935EC /* Starscream */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED9AF7BDFE0F03CE129D72D85FCA460 /* WSEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSEngine.swift; path = Sources/Engine/WSEngine.swift; sourceTree = "<group>"; };
 		9357D61506695B4EDB5014C06BE56A43 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
 		99693E63C8A0C84CBEFC7054E3244A52 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
@@ -113,15 +115,13 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2EAFCD04DEECC2AC6B8727048A80617 /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Compression/Compression.swift; sourceTree = "<group>"; };
 		A62AC07A9271D8996F97CC35856BA647 /* WebSocketServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketServer.swift; path = Sources/Server/WebSocketServer.swift; sourceTree = "<group>"; };
-		B6F894D8723A4595A9CD8CC45803BDAB /* HaptikCommerceLib-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "HaptikCommerceLib-copy-dsyms.sh"; sourceTree = "<group>"; };
 		BB8C64805E0FDD7956210533C8DC5674 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C3376895021B2AEAC34CB5458F01914A /* HaptikCommerceLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HaptikCommerceLib.debug.xcconfig; sourceTree = "<group>"; };
 		C9C8BC22AA74FEDA9CF44852D28F68A4 /* Transport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transport.swift; path = Sources/Transport/Transport.swift; sourceTree = "<group>"; };
+		CADD02CB4EB65FBAFC3CB196FF92EBCA /* HaptikCommerceLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HaptikCommerceLib.debug.xcconfig; sourceTree = "<group>"; };
 		D57D62D715FBA07388D09EDE8A575F9E /* Pods-Demo_pod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo_pod.modulemap"; sourceTree = "<group>"; };
 		DC9EDFD1EEAC9F1B80D141D65935F52C /* Pods-Demo_pod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo_pod.debug.xcconfig"; sourceTree = "<group>"; };
 		DFD212064ED1CC47B2560F6E20526B3B /* Server.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Server.swift; path = Sources/Server/Server.swift; sourceTree = "<group>"; };
 		E6B8353DB672E6C84ABAF6B044BC47F3 /* Starscream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.release.xcconfig; sourceTree = "<group>"; };
-		E92D49A2601EAEB6F3F7022997C13997 /* HaptikCommerceLib-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "HaptikCommerceLib-xcframeworks.sh"; sourceTree = "<group>"; };
 		ECFB158E08A6502A38761C96CB68975B /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,11 +134,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BD519311FDE64B69519AE156EE11C41 /* Frameworks */ = {
+		E282FA4004692E69757D6DE724366E7C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4A18B241231C7FB70555F6784D2FBC9 /* Foundation.framework in Frameworks */,
+				6A9CB316ABDB73CB006F254EE3E70249 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +169,15 @@
 				9C59F72C8EB5576457A42DD2E5126A69 /* HaptikCommerceLib */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		453F2133F61921961D94E6AE0D20B2D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC69CB11D6D44A41C69F106C9F415C /* Pods-Demo_pod */,
+				891B2270823847ED23F2ECFC28F935EC /* Starscream */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -216,24 +225,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8D3D51CC80C585800D4B5C73D65B2309 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B6F894D8723A4595A9CD8CC45803BDAB /* HaptikCommerceLib-copy-dsyms.sh */,
-				E92D49A2601EAEB6F3F7022997C13997 /* HaptikCommerceLib-xcframeworks.sh */,
-				C3376895021B2AEAC34CB5458F01914A /* HaptikCommerceLib.debug.xcconfig */,
-				473CB2D026986830CA3690BF81CCD0BD /* HaptikCommerceLib.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Demo_pod/Pods/Target Support Files/HaptikCommerceLib";
-			sourceTree = "<group>";
-		};
 		9C59F72C8EB5576457A42DD2E5126A69 /* HaptikCommerceLib */ = {
 			isa = PBXGroup;
 			children = (
 				A517F4B83BDEDBC3CFAC0658BB0CD400 /* Frameworks */,
 				11A4E24AC9AED5F8CB5EDC885042E6D3 /* Pod */,
-				8D3D51CC80C585800D4B5C73D65B2309 /* Support Files */,
+				D18E5767775D287E961822FF2D8A1210 /* Support Files */,
 			);
 			name = HaptikCommerceLib;
 			path = ../../..;
@@ -286,9 +283,21 @@
 				3F7CB42C1236EC1695340947C88C6176 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				00B2FEDCAC8A8BACE0F9A4E951E14F8C /* Pods */,
-				E73528E650B01B2F8860B1A599DE4715 /* Products */,
+				453F2133F61921961D94E6AE0D20B2D2 /* Products */,
 				778F762FD433F01DFCA7498A5D085D4A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D18E5767775D287E961822FF2D8A1210 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E6741716391E94665532BC5962F1B94 /* HaptikCommerceLib-copy-dsyms.sh */,
+				649D8BC972D31309970CFE519F412543 /* HaptikCommerceLib-xcframeworks.sh */,
+				CADD02CB4EB65FBAFC3CB196FF92EBCA /* HaptikCommerceLib.debug.xcconfig */,
+				3A18CAF12CE0320A73D4D316E9754310 /* HaptikCommerceLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Demo_pod/Pods/Target Support Files/HaptikCommerceLib";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -299,18 +308,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E73528E650B01B2F8860B1A599DE4715 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4EFC69CB11D6D44A41C69F106C9F415C /* Pods_Demo_pod.framework */,
-				891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3F27EF780EC7DAEAB998359C8DCEC90B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D005C9F1DC546AB5931A809F9AD576C /* Pods-Demo_pod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC07C3BFD801BD3E0AE8C58B03CBE083 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -319,35 +327,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E308E9C375C6E26458F6F277D736E6E1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				434DF4FA258D260911F0D8AF5B9B9F2D /* Pods-Demo_pod-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		43E257DC9E659F576E6ED10209AF5FF9 /* Pods-Demo_pod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97153176A0223AF7506A8496A7434588 /* Build configuration list for PBXNativeTarget "Pods-Demo_pod" */;
+			buildConfigurationList = 8EFA813279170C34B011925CF236E755 /* Build configuration list for PBXNativeTarget "Pods-Demo_pod" */;
 			buildPhases = (
-				E308E9C375C6E26458F6F277D736E6E1 /* Headers */,
-				B9311B8288075A2A8271B146407B1F7D /* Sources */,
-				7BD519311FDE64B69519AE156EE11C41 /* Frameworks */,
-				3E7CEA27417B4103480631D277C5C667 /* Resources */,
+				3F27EF780EC7DAEAB998359C8DCEC90B /* Headers */,
+				927A9474BEA87C09C3AEB3FB58155F70 /* Sources */,
+				E282FA4004692E69757D6DE724366E7C /* Frameworks */,
+				E0647C808DE4F669A0009107B97DAF91 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2768DAC4BB8590A44ACA7A9019714F3D /* PBXTargetDependency */,
-				1730A63002DA69FFEA545D5E2B0BF23D /* PBXTargetDependency */,
+				E51376770D31A13348E5FDD51B10D919 /* PBXTargetDependency */,
+				F77B3E5C9DD3459267D5861055468391 /* PBXTargetDependency */,
 			);
 			name = "Pods-Demo_pod";
-			productName = "Pods-Demo_pod";
-			productReference = 4EFC69CB11D6D44A41C69F106C9F415C /* Pods_Demo_pod.framework */;
+			productName = Pods_Demo_pod;
+			productReference = 4EFC69CB11D6D44A41C69F106C9F415C /* Pods-Demo_pod */;
 			productType = "com.apple.product-type.framework";
 		};
 		9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */ = {
@@ -365,7 +365,7 @@
 			);
 			name = Starscream;
 			productName = Starscream;
-			productReference = 891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */;
+			productReference = 891B2270823847ED23F2ECFC28F935EC /* Starscream */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -382,11 +382,11 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E73528E650B01B2F8860B1A599DE4715 /* Products */;
+			productRefGroup = 453F2133F61921961D94E6AE0D20B2D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -405,7 +405,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E7CEA27417B4103480631D277C5C667 /* Resources */ = {
+		E0647C808DE4F669A0009107B97DAF91 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -480,60 +480,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9311B8288075A2A8271B146407B1F7D /* Sources */ = {
+		927A9474BEA87C09C3AEB3FB58155F70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BA322ABE2B3B7528E20388B96EEFA65 /* Pods-Demo_pod-dummy.m in Sources */,
+				BA5092D85F8CCE11A0DAEA955CAC38CA /* Pods-Demo_pod-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1730A63002DA69FFEA545D5E2B0BF23D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Starscream;
-			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
-			targetProxy = 999B9B43738444816BA1F2CC6292B680 /* PBXContainerItemProxy */;
-		};
-		2768DAC4BB8590A44ACA7A9019714F3D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HaptikCommerceLib;
-			target = F5F644F31B8C347F55F30C1C3FCEAAE0 /* HaptikCommerceLib */;
-			targetProxy = 34788C268BB5F875455BECE781292A48 /* PBXContainerItemProxy */;
-		};
 		8DB1371D217ECA2095608C94D3FD09BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Starscream;
 			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
 			targetProxy = 1C6BD8A76D3A4433904449BFD669453F /* PBXContainerItemProxy */;
 		};
+		E51376770D31A13348E5FDD51B10D919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HaptikCommerceLib;
+			target = F5F644F31B8C347F55F30C1C3FCEAAE0 /* HaptikCommerceLib */;
+			targetProxy = C5082599A822741D3345BF5187A8F7E8 /* PBXContainerItemProxy */;
+		};
+		F77B3E5C9DD3459267D5861055468391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = F41857450BE2400BE238E1FD97EE3585 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		30FF2CA117BE322CB4698C99E4930673 /* Release */ = {
+		2B3569015A7999FF3832500018A1B76A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 473CB2D026986830CA3690BF81CCD0BD /* HaptikCommerceLib.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		3180181C864F0B53651298CC4B667644 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC9EDFD1EEAC9F1B80D141D65935F52C /* Pods-Demo_pod.debug.xcconfig */;
+			baseConfigurationReference = 68EC690B455A71797BB4AC9CBC1AEFCE /* Pods-Demo_pod.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -564,10 +545,30 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		30FF2CA117BE322CB4698C99E4930673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A18CAF12CE0320A73D4D316E9754310 /* HaptikCommerceLib.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		79774D682F8B29018060CB77604DF233 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -735,7 +736,7 @@
 		};
 		C8D3BCBD1CD6F8688A9834BA71BC750D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3376895021B2AEAC34CB5458F01914A /* HaptikCommerceLib.debug.xcconfig */;
+			baseConfigurationReference = CADD02CB4EB65FBAFC3CB196FF92EBCA /* HaptikCommerceLib.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -786,9 +787,9 @@
 			};
 			name = Debug;
 		};
-		FA5115DE11AFC47E37FFC1C5BA83956B /* Release */ = {
+		DFF447FAEB6DDF50767D5E8E6C006F87 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68EC690B455A71797BB4AC9CBC1AEFCE /* Pods-Demo_pod.release.xcconfig */;
+			baseConfigurationReference = DC9EDFD1EEAC9F1B80D141D65935F52C /* Pods-Demo_pod.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -819,11 +820,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -846,11 +846,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97153176A0223AF7506A8496A7434588 /* Build configuration list for PBXNativeTarget "Pods-Demo_pod" */ = {
+		8EFA813279170C34B011925CF236E755 /* Build configuration list for PBXNativeTarget "Pods-Demo_pod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3180181C864F0B53651298CC4B667644 /* Debug */,
-				FA5115DE11AFC47E37FFC1C5BA83956B /* Release */,
+				DFF447FAEB6DDF50767D5E8E6C006F87 /* Debug */,
+				2B3569015A7999FF3832500018A1B76A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

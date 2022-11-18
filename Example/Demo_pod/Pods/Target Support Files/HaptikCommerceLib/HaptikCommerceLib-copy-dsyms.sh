@@ -69,6 +69,7 @@ install_dsym() {
       rsync --delete -av "${RSYNC_PROTECT_TMP_FILES[@]}" --links --filter "- CVS/" --filter "- .svn/" --filter "- .git/" --filter "- .hg/" --filter "- Headers" --filter "- PrivateHeaders" --filter "- Modules" "${DERIVED_FILES_DIR}/${basename}.dSYM" "${DWARF_DSYM_FOLDER_PATH}"
     else
       # The dSYM was not stripped at all, in this case touch a fake folder so the input/output paths from Xcode do not reexecute this script because the file is missing.
+      mkdir -p "${DWARF_DSYM_FOLDER_PATH}"
       touch "${DWARF_DSYM_FOLDER_PATH}/${basename}.dSYM"
     fi
   fi
@@ -82,5 +83,5 @@ install_bcsymbolmap() {
     rsync --delete -av "${RSYNC_PROTECT_TMP_FILES[@]}" --filter "- CVS/" --filter "- .svn/" --filter "- .git/" --filter "- .hg/" --filter "- Headers" --filter "- PrivateHeaders" --filter "- Modules" "${bcsymbolmap_path}" "${destination}"
 }
 
-install_dsym "/Users/ketan/Documents/Source_Code/Public-Libs/BuzzoLib/Frameworks/HaptikCommerceLib/HaptikCommerce.dSYMs/HaptikCommerce.framework.ios-arm64_i386_x86_64-simulator.dSYM"
-install_dsym "/Users/ketan/Documents/Source_Code/Public-Libs/BuzzoLib/Frameworks/HaptikCommerceLib/HaptikCommerce.dSYMs/HaptikCommerce.framework.ios-arm64_armv7.dSYM"
+install_dsym "${PODS_ROOT}/../../../Frameworks/HaptikCommerceLib/HaptikCommerce.dSYMs/HaptikCommerce.framework.ios-arm64_armv7.dSYM"
+install_dsym "${PODS_ROOT}/../../../Frameworks/HaptikCommerceLib/HaptikCommerce.dSYMs/HaptikCommerce.framework.ios-arm64_i386_x86_64-simulator.dSYM"
