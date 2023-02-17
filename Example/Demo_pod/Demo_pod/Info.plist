@@ -44,22 +44,22 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>HaptikCommerceLib</key>
-	<dict>
-		<key>baseUrl</key>
-		<string>Your_Base_URL</string>
-		<key>clientID</key>
-		<string>Your_Clien_ID</string>
-		<key>runEnvironment</key>
-		<string>1</string>
-		<key>google-api-key</key>
-		<string>your_google-api-key-vCM</string>
-		<key>reverie-api-key</key>
-		<string>your_reverie-api-key</string>
-		<key>reverie-app-id</key>
-		<string>your_reverie_app_id</string>
-		<key>reverie-domain</key>
-		<string>ecomm</string>
-	</dict>
+    <dict>
+            <key>baseUrl</key>
+            <string>https://jiomart.haptikapi.net</string>
+            <key>clientID</key>
+            <string>jiomart</string>
+            <key>runEnvironment</key>
+            <string>1</string>
+            <key>google-api-key</key>
+            <string>your_google-api-key-vCM</string>
+            <key>reverie-api-key</key>
+            <string>57375232ecf271edf0b290d78647ed105a4ed2f4</string>
+            <key>reverie-app-id</key>
+            <string>prod.jiomart</string>
+            <key>reverie-domain</key>
+            <string>ecomm</string>
+        </dict>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Microphone Speech permission</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
