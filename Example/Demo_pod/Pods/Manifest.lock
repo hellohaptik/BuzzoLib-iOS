@@ -1,5 +1,5 @@
 PODS:
-  - HaptikCommerceLib (1.1.1):
+  - HaptikCommerceLib (1.2.0):
     - Starscream (~> 4.0)
   - Starscream (4.0.4)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  HaptikCommerceLib: d2416e600285c59f0ccf1ec1a67e61450bade015
+  HaptikCommerceLib: 7817f221b5889393b737c0895073c02ebdeb8e37
   Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
 
 PODFILE CHECKSUM: e3dc97a398cf52f781f49c8ab59e9895e3eff52d
