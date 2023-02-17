@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.2.0)] - (17/02/23) 
+### Enhancements
+- Update notifications
+
 ## [1.1.0)] - (18/11/22) 
 ### Enhancements
 - Update reverie headers
