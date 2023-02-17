@@ -1,12 +1,12 @@
 BCSymbolMap Version: 2.0
 Apple clang version 13.1.6 (clang-1316.0.21.2.5)
-/Applications/Xcode-13.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk
 iPhoneOS15.5.sdk
-/Users/ketan/Library/Developer/Xcode/DerivedData/HaptikCommerce-dmkhaiwpfmndnkfasasveoqsbdci/Build/Intermediates.noindex/ArchiveIntermediates/HaptikCommerce/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Starscream.build/DerivedSources/Starscream_vers.c
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods
+/Users/Suraj-Boniwal/Library/Developer/Xcode/DerivedData/HaptikCommerce-gfhwworadoxocgcakmcxadebgxwb/Build/Intermediates.noindex/ArchiveIntermediates/HaptikCommerce/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Starscream.build/DerivedSources/Starscream_vers.c
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods
 __OBJC_METACLASS_RO_$_PodsDummy_Starscream
 __OBJC_CLASS_RO_$_PodsDummy_Starscream
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Target Support Files/Starscream/Starscream-dummy.m
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Target Support Files/Starscream/Starscream-dummy.m
 __swift_FORCE_LOAD_$_swiftCompatibility50
 __swift_FORCE_LOAD_$_swiftCompatibility51
 __swift_FORCE_LOAD_$_swiftCompatibilityDynamicReplacements
@@ -79,7 +79,7 @@ ___swift_reflection_version
 Apple clang version 13.1.6 (clang-1316.0.20.12)
 <swift-imported-modules>
 Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/Compression/Compression.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/Compression/Compression.swift
 $sSo10z_stream_sVMa
 <compiler-generated>
 rawValue.get
@@ -113,7 +113,7 @@ _$s10Foundation4DataV10StarscreamE9ByteErrorVMF
 _$s10Foundation4DataV10StarscreamE9ByteErrorVs0E0ADMcMK
 _$s10Foundation4DataV10StarscreamE9ByteErrorVs0E0ADMc
 _$s10Foundation4DataV10StarscreamE9ByteErrorVN
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/DataBytes/Data+Extensions.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/DataBytes/Data+Extensions.swift
 $s10Foundation4DataV10StarscreamE9ByteErrorVMa
 $s10Foundation4DataV10StarscreamE9ByteErrorVAFs0E0ADWl
 $s10Foundation4DataV10StarscreamE15withUnsafeBytesyxxSPyq_GKXEKr0_lFxSWKXEfU_yt_s5UInt8VTg5050$s10Starscream10CompressorC8compressy10Foundation4b11VAGKFySPys5G7VGXEfU_AD0J0CACs5Int32VACTf1nnc_n
@@ -149,7 +149,7 @@ _$s10Starscream14EngineDelegate_pMF
 _symbolic x
 _symbolic $s10Starscream6EngineP
 _$s10Starscream6Engine_pMF
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/Engine/Engine.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/Engine/Engine.swift
 _$s10Starscream21FoundationHTTPHandlerC7convert7request0B04DataVAF10URLRequestV_tF
 _$s10Starscream21FoundationHTTPHandlerC5parse4dataSi0B04DataV_tF
 _$s10Starscream21FoundationHTTPHandlerC12parseContent4dataSb0B04DataV_tF
@@ -195,7 +195,7 @@ _$s10Starscream21FoundationHTTPHandlerC8delegateAA0C8Delegate_pSgvsTq
 _$s10Starscream21FoundationHTTPHandlerC8delegateAA0C8Delegate_pSgvMTq
 _$s10Starscream21FoundationHTTPHandlerC12parseContent4dataSb0B04DataV_tFTq
 -private-discriminator _334434B56D7AC32509CD1F6E43CC8AE4
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/Framer/FoundationHTTPHandler.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/Framer/FoundationHTTPHandler.swift
 __swift_destroy_boxed_opaque_existential_0
 $sypWOb
 __swift_instantiateConcreteTypeFromMangledName
@@ -288,7 +288,7 @@ _$s10Starscream27FoundationHTTPServerHandlerC8delegateAA0C8Delegate_pSgvsTq
 _$s10Starscream27FoundationHTTPServerHandlerC8delegateAA0C8Delegate_pSgvMTq
 _$s10Starscream27FoundationHTTPServerHandlerC12parseContent4dataSb0B04DataV_tFTq
 _$s10Starscream27FoundationHTTPServerHandlerCACycfCTq
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/Framer/FoundationHTTPServerHandler.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/Framer/FoundationHTTPServerHandler.swift
 $sSo8NSStringCMa
 $s10Starscream27FoundationHTTPServerHandlerCMa
 $s10Starscream18HTTPServerDelegate_pSgXwWOh
@@ -345,7 +345,7 @@ _$s10Starscream18FoundationSecurityC15allowSelfSignedSbvgTq
 _$s10Starscream18FoundationSecurityC15allowSelfSignedSbvsTq
 _$s10Starscream18FoundationSecurityC15allowSelfSignedSbvMTq
 -private-discriminator _83C391ACB50AC8CA3F89E8D692C78632
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/Security/FoundationSecurity.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/Security/FoundationSecurity.swift
 $sS2SSysWl
 $s10Starscream7WSErrorVACs5ErrorAAWl
 $s10Starscream18FoundationSecurityCMa
@@ -533,7 +533,7 @@ __PROTOCOL_PROPERTIES_NSObject
 __PROTOCOL_METHOD_TYPES_NSObject
 _objc_classes_$s10Starscream19FoundationTransportCN
 -private-discriminator _EADD54DCCDA4AFDB2E8CF46711CBEF76
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/Transport/FoundationTransport.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/Transport/FoundationTransport.swift
 $s10Foundation4DataVACSTAAWl
 $sSpys4Int8VGs5Int32Vs5Error_pIgydzo_AcEsAF_pIegyrzo_TRTA
 $sSpys4Int8VGs5Int32Vs5Error_pIgydzo_AcEsAF_pIegyrzo_TR
@@ -666,7 +666,7 @@ _$s10Starscream14FrameCollectorC18needsDecompressionSbvsTq
 _$s10Starscream14FrameCollectorC18needsDecompressionSbvMTq
 _$s10Starscream14FrameCollectorC5resetyyFTq
 _$s10Starscream14FrameCollectorCACycfCTq
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/Framer/FrameCollector.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/Framer/FrameCollector.swift
 $s10Starscream14FrameCollectorC5EventOMa
 $s10Starscream14FrameCollectorC5EventOwui
 $s10Starscream14FrameCollectorC5EventOwup
@@ -843,14 +843,14 @@ _$sSays5UInt8VGSayxG10Foundation15ContiguousBytesAeBRszlWL
 _$sSays5UInt8VGML
 _objc_classes_$s10Starscream8WSFramerCN
 -private-discriminator _152F7B853C3325A337FE1390FE6C026F
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/Framer/Framer.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/Framer/Framer.swift
 $ss10ArraySliceVys5UInt8VGMa
 __swift_destroy_boxed_opaque_existential_1
 __swift_project_boxed_opaque_existential_1
 objectdestroy.5
 $sSays5UInt8VGSayxG10Foundation15ContiguousBytesAeBRszlWl
 _swift_stdlib_malloc_size
-/Applications/Xcode-13.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/lib/swift/shims/LibcShims.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/lib/swift/shims/LibcShims.h
 $s10Starscream8WSFramerCMa
 $s10Starscream10FrameEventOMa
 $s10Starscream10FrameEventOwui
@@ -1092,7 +1092,7 @@ _symbolic _____ 10Starscream8URLPartsV
 _$s10Starscream8URLPartsVMF
 _symbolic _____ySSG s23_ContiguousArrayStorageC
 _$ss23_ContiguousArrayStorageCySSGMD
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/Framer/HTTPHandler.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/Framer/HTTPHandler.swift
 $s10Starscream8URLPartsVMa
 $s10Starscream8URLPartsVwst
 $s10Starscream8URLPartsVwet
@@ -1270,7 +1270,7 @@ _$s10Starscream12NativeEngineC8delegateAA0C8Delegate_pSgvgTq
 _$s10Starscream12NativeEngineC8delegateAA0C8Delegate_pSgvsTq
 _$s10Starscream12NativeEngineC8delegateAA0C8Delegate_pSgvMTq
 -private-discriminator _2D2A33380337B5EBE48BD9833E669011
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/Engine/NativeEngine.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/Engine/NativeEngine.swift
 $s10Starscream12NativeEngineC6doRead33_2D2A33380337B5EBE48BD9833E669011LLyyFys6ResultOySo25NSURLSessionWebSocketTaskC10FoundationE7MessageOs5Error_pGcfU_TA.16
 $ss6ResultOySo25NSURLSessionWebSocketTaskC10FoundationE7MessageOs5Error_pGWOc
 $s10Starscream14EngineDelegate_pSgXwWOh
@@ -1343,7 +1343,7 @@ _symbolic $s10Starscream18CertificatePinningP
 _$s10Starscream18CertificatePinning_pMF
 _symbolic $s10Starscream15HeaderValidatorP
 _$s10Starscream15HeaderValidator_pMF
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/Security/Security.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/Security/Security.swift
 $s10Starscream12PinningStateOMa
 $s10Starscream12PinningStateOwui
 $s10Starscream12PinningStateOwup
@@ -1408,7 +1408,7 @@ _symbolic ______p______Sgt 10Starscream10ConnectionP 10Foundation4DataV
 _$s10Starscream11ServerEventOMF
 _symbolic $s10Starscream6ServerP
 _$s10Starscream6Server_pMF
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/Server/Server.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/Server/Server.swift
 $s10Starscream11ServerEventOMa
 $s10Starscream11ServerEventOwui
 $s10Starscream11ServerEventOwup
@@ -1470,7 +1470,7 @@ _$s10Starscream17StringHTTPHandlerC8delegateAA0C8Delegate_pSgvsTq
 _$s10Starscream17StringHTTPHandlerC8delegateAA0C8Delegate_pSgvMTq
 _$s10Starscream17StringHTTPHandlerC12parseContent4dataSb10Foundation4DataV_tFTq
 -private-discriminator _6ACD8FB8A25EE4BAE9E46BB2830AA336
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/Framer/StringHTTPHandler.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/Framer/StringHTTPHandler.swift
 $sS2sSysWl
 $s10Starscream17StringHTTPHandlerCMa
 $s10Starscream17StringHTTPHandlerC13findEndOfHTTP33_6ACD8FB8A25EE4BAE9E46BB2830AA336LL4dataSi10Foundation4DataV_tFySWXEfU_
@@ -1597,7 +1597,7 @@ _symbolic SbIeyBy_
 _symbolic _____SgXw 10Starscream12TCPTransportC
 _objc_classes_$s10Starscream12TCPTransportCN
 -private-discriminator _E12DE33E22E5E5B6C9C9F526587B799A
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/Transport/TCPTransport.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/Transport/TCPTransport.swift
 $s10Starscream12TCPTransportC8readLoop013_E12DE33E22E5h4B6C9J12F526587B799ALLyyFy10Foundation4DataVSg_7Network12NWConnectionC14ContentContextCSgSbAJ7NWErrorOSgtcfU_TA.14
 $s10Starscream12TCPTransportC8readLoop013_E12DE33E22E5h4B6C9J12F526587B799ALLyyFy10Foundation4DataVSg_7Network12NWConnectionC14ContentContextCSgSbAJ7NWErrorOSgtcfU_TA
 $s10Starscream12TCPTransportC5start013_E12DE33E22E5g4B6C9I12F526587B799ALLyyFySbcfU1_TA
@@ -1664,7 +1664,7 @@ _symbolic $s10Starscream20TransportEventClientP
 _$s10Starscream20TransportEventClient_pMF
 _symbolic $s10Starscream9TransportP
 _$s10Starscream9Transport_pMF
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/Transport/Transport.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/Transport/Transport.swift
 $s10Starscream15ConnectionStateOMa
 $s10Starscream15ConnectionStateOwui
 $s10Starscream15ConnectionStateOwup
@@ -1848,7 +1848,7 @@ _symbolic ______p 10Starscream11HTTPHandlerP
 _$s10Starscream11HTTPHandler_pMD
 _objc_classes_$s10Starscream9WebSocketCN
 -private-discriminator _E91840E7069A0D2D302D042308E9D928
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/Starscream/WebSocket.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/Starscream/WebSocket.swift
 $s10Starscream6Engine_pWOc
 $s10Starscream6Engine_pWOb
 $s10Starscream14WebSocketEventOIegn_ACytIegnr_TRTA
@@ -2041,7 +2041,7 @@ _objc_classes_$s10Starscream16ServerConnectionCN
 _$s10Starscream16ServerConnectionC4uuidSSvgTq
 _$s10Starscream16ServerConnectionC9transportAcA12TCPTransportC_tcfCTq
 -private-discriminator _9F52BD6CF7EFCD3767CAE09047A80F01
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/Server/WebSocketServer.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/Server/WebSocketServer.swift
 $s10Starscream11ServerEventOIegn_ACytIegnr_TRTA
 $s10Starscream11ServerEventOIegn_ACytIegnr_TR
 $s10Starscream11ServerEventOytIegnr_ACIegn_TRTA
@@ -2207,7 +2207,7 @@ _$s10Starscream10CompressorC5resetyyKFTq
 _$s10Starscream10CompressorC8compressy10Foundation4DataVAGKFTq
 _$s10Starscream10CompressorCN
 -private-discriminator _C6251FBF08BE324875D2CDC04E1E70A3
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/Compression/WSCompression.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/Compression/WSCompression.swift
 $ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgq5Tf4nnd_n
 $sSmsSKRz11SubSequenceSlQzRszrlE17_customRemoveLastySbSiF10Foundation4DataV_Tgq5
 Swift runtime failure: Can't remove more items from a collection than it contains
@@ -2353,7 +2353,7 @@ _$s10Starscream8WSEngineC8delegateAA14EngineDelegate_pSgvgTq
 _$s10Starscream8WSEngineC8delegateAA14EngineDelegate_pSgvsTq
 _$s10Starscream8WSEngineC8delegateAA14EngineDelegate_pSgvMTq
 -private-discriminator _6D6F499CC89D0D0366E4B0F04AAFDDB7
-/Users/ketan/Documents/repo-container/Jio-Haptik/Buzzo/buzzo-framework/Pods/Starscream/Sources/Engine/WSEngine.swift
+/Users/Suraj-Boniwal/Desktop/buzzo-ios-sdk-framework/Pods/Starscream/Sources/Engine/WSEngine.swift
 $s10Foundation10URLRequestVSgWOb
 $s10Foundation10URLRequestVSgWOc
 $sSay8Dispatch0A13WorkItemFlagsVGMa
