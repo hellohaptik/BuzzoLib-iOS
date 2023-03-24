@@ -1,0 +1,11 @@
+framework module HaptikCommerce {
+  umbrella header "HaptikCommerce.h"
+
+  export *
+  module * { export * }
+}
+
+module HaptikCommerce.Swift {
+  header "HaptikCommerce-Swift.h"
+  requires objc
+}

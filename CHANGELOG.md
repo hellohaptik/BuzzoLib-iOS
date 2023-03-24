@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.0.0)] - (23/03/23) 
+### Enhancements
+- Update SDK integration
+
 ## [1.2.0)] - (17/02/23) 
 ### Enhancements
 - Update notifications
