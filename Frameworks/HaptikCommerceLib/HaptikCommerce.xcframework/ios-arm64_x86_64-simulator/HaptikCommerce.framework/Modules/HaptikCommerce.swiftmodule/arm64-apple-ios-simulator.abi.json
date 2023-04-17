@@ -6456,791 +6456,791 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPEventHandler.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPEventHandler.swift",
       "kind": "StringLiteral",
       "offset": 127,
       "length": 14,
       "value": "\"HaptikCommerce.HPEventHandler\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPNetwork.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPNetwork.swift",
       "kind": "Dictionary",
       "offset": 213,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/AppleSpeechService.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/AppleSpeechService.swift",
       "kind": "BooleanLiteral",
       "offset": 2021,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPAttributes.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 1330,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPAttributes.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 1564,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPAttributes.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 1780,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPAttributes.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 1940,
       "length": 5,
       "value": "\"ios\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPAttributes.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPAttributes.swift",
       "kind": "BooleanLiteral",
       "offset": 2060,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPAttributes.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 2459,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPAttributes.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPAttributes.swift",
       "kind": "BooleanLiteral",
       "offset": 2517,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPAttributes.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 2577,
       "length": 4,
       "value": "\"in\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPAttributes.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 2869,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPAttributes.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPAttributes.swift",
       "kind": "BooleanLiteral",
       "offset": 3166,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPAttributes.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPAttributes.swift",
       "kind": "BooleanLiteral",
       "offset": 3355,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPAttributes.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPAttributes.swift",
       "kind": "BooleanLiteral",
       "offset": 3674,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPAttributes.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPAttributes.swift",
       "kind": "Dictionary",
       "offset": 3746,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 1058,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 1077,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 1096,
       "length": 5,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 1058,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 1077,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 1096,
       "length": 5,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 1891,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 1910,
       "length": 12,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 1891,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 1910,
       "length": 12,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 2246,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 2265,
       "length": 10,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 2246,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 2265,
       "length": 10,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 2598,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 2598,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 2848,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 2848,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 3103,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HaptikCommerceLib.swift",
       "kind": "IntegerLiteral",
       "offset": 3103,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/ReverieASR.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/ReverieASR.swift",
       "kind": "StringLiteral",
       "offset": 370,
       "length": 12,
       "value": "\"stt_stream\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/ReverieASR.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/ReverieASR.swift",
       "kind": "StringLiteral",
       "offset": 413,
       "length": 3,
       "value": "\"2\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/ReverieASR.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/ReverieASR.swift",
       "kind": "BooleanLiteral",
       "offset": 444,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/ReverieASR.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/ReverieASR.swift",
       "kind": "BooleanLiteral",
       "offset": 715,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/ReverieASR.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/ReverieASR.swift",
       "kind": "FloatLiteral",
       "offset": 1071,
       "length": 7,
       "value": "16000.0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/ReverieASR.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/ReverieASR.swift",
       "kind": "BooleanLiteral",
       "offset": 1105,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/WebController\/HPWebController.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/WebController\/HPWebController.swift",
       "kind": "BooleanLiteral",
       "offset": 517,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/WebController\/HPWebController.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/WebController\/HPWebController.swift",
       "kind": "StringLiteral",
       "offset": 137,
       "length": 15,
       "value": "\"HaptikCommerce.HPWebController\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 348,
       "length": 9,
       "value": "\"baseUrl\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 389,
       "length": 10,
       "value": "\"clientID\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 431,
       "length": 19,
       "value": "\"HaptikCommerceLib\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 483,
       "length": 16,
       "value": "\"runEnvironment\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 559,
       "length": 13,
       "value": "\"HaptikEvent\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 615,
       "length": 14,
       "value": "\"unregistered\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 662,
       "length": 9,
       "value": "\"buzzoID\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 703,
       "length": 27,
       "value": "\"com.haptik.HaptikCommerce\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 762,
       "length": 28,
       "value": "\"com.haptik.buzzo.demoSwift\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 869,
       "length": 14,
       "value": "\"abexperiment\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 924,
       "length": 21,
       "value": "\"androidactivityuuid\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 986,
       "length": 19,
       "value": "\"posterdescription\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 1046,
       "length": 10,
       "value": "\"posterid\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 1097,
       "length": 13,
       "value": "\"postertitle\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 1151,
       "length": 13,
       "value": "\"buzzouserid\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 1205,
       "length": 6,
       "value": "\"cart\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 1252,
       "length": 17,
       "value": "\"callingActivity\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 1310,
       "length": 10,
       "value": "\"category\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 1361,
       "length": 9,
       "value": "\"channel\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 1411,
       "length": 8,
       "value": "\"client\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 1460,
       "length": 12,
       "value": "\"customerid\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 1513,
       "length": 7,
       "value": "\"debug\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 1561,
       "length": 5,
       "value": "\"geo\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 1607,
       "length": 10,
       "value": "\"language\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 1658,
       "length": 6,
       "value": "\"mode\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 1705,
       "length": 11,
       "value": "\"pagetitle\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 1757,
       "length": 10,
       "value": "\"pagetype\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 1808,
       "length": 9,
       "value": "\"pincode\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 1858,
       "length": 11,
       "value": "\"productid\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 1910,
       "length": 13,
       "value": "\"productname\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 1964,
       "length": 7,
       "value": "\"query\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 2012,
       "length": 10,
       "value": "\"realtime\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 2063,
       "length": 24,
       "value": "\"removeoptionbackground\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 2128,
       "length": 16,
       "value": "\"searchcriteria\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 2185,
       "length": 11,
       "value": "\"sessionid\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 2237,
       "length": 7,
       "value": "\"speak\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 2285,
       "length": 10,
       "value": "\"storeapp\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 2336,
       "length": 6,
       "value": "\"tags\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 2383,
       "length": 12,
       "value": "\"voicefirst\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 2436,
       "length": 12,
       "value": "\"sdkVersion\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/Constants\/HPConstants.swift",
       "kind": "StringLiteral",
       "offset": 2489,
       "length": 12,
       "value": "\"appversion\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/SpeechEngine\/HPSpeechEngine.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/SpeechEngine\/HPSpeechEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 893,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/GoogleSpeechService.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/GoogleSpeechService.swift",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 61,
       "value": "\"https:\/\/texttospeech.googleapis.com\/v1beta1\/text:synthesize\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/GoogleSpeechService.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/GoogleSpeechService.swift",
       "kind": "BooleanLiteral",
       "offset": 410,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/GoogleSpeechService.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/GoogleSpeechService.swift",
       "kind": "Dictionary",
       "offset": 4376,
       "length": 712,
       "value": "[(\"en-GB-male-ST\", \"en-GB-Standard-B\"), (\"en-GB-male-WA\", \"en-GB-Standard-A\"), (\"en-GB-female-ST\", \"en-GB-Wavenet-B\"), (\"en-GB-female-WA\", \"en-GB-Standard-A\"), (\"en-US-male-ST\", \"en-US-Standard-A\"), (\"en-US-male-WA\", \"en-US-Wavenet-I\"), (\"en-US-female-ST\", \"en-US-Standard-C\"), (\"en-US-female-WA\", \"en-US-Wavenet-H\"), (\"en-IN-male-ST\", \"en-IN-Standard-B\"), (\"en-IN-male-WA\", \"en-IN-Wavenet-B\"), (\"en-IN-female-ST\", \"en-IN-Standard-D\"), (\"en-IN-female-WA\", \"en-IN-Wavenet-D\"), (\"hi-IN-male-ST\", \"hi-IN-Standard-C\"), (\"hi-IN-male-WA\", \"hi-IN-Wavenet-B\"), (\"hi-IN-female-ST\", \"hi-IN-Standard-D\"), (\"hi-IN-female-WA\", \"hi-IN-Wavenet-D\")]"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/ReverieSpeechService.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/ReverieSpeechService.swift",
       "kind": "StringLiteral",
       "offset": 320,
       "length": 5,
       "value": "\"tts\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/ReverieSpeechService.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/ReverieSpeechService.swift",
       "kind": "BooleanLiteral",
       "offset": 401,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/ReverieSpeechService.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/SpeechEngine\/SpeechServices\/ReverieSpeechService.swift",
       "kind": "Dictionary",
       "offset": 3540,
       "length": 139,
       "value": "[(\"en-male\", \"en_female\"), (\"en-female\", \"en_female\"), (\"hi-male\", \"hi_male\"), (\"hi-female\", \"hi_female\")]"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPScriptHandler.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPScriptHandler.swift",
       "kind": "StringLiteral",
       "offset": 194,
       "length": 18,
       "value": "\"HaptikCommerce.WKWebScriptHandler\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 896,
       "length": 12,
       "value": "\"event_name\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 938,
       "length": 8,
       "value": "\"extras\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 976,
       "length": 15,
       "value": "\"haptik_userid\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 1079,
       "length": 12,
       "value": "\"product_id\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 1177,
       "length": 10,
       "value": "\"response\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 1225,
       "length": 26,
       "value": "\"non_voice_first_response\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 896,
       "length": 12,
       "value": "\"event_name\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 938,
       "length": 8,
       "value": "\"extras\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 976,
       "length": 15,
       "value": "\"haptik_userid\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 1079,
       "length": 12,
       "value": "\"product_id\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 1177,
       "length": 10,
       "value": "\"response\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 1225,
       "length": 26,
       "value": "\"non_voice_first_response\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 2076,
       "length": 15,
       "value": "\"buzzo_counter\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 2127,
       "length": 16,
       "value": "\"original_query\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 2179,
       "length": 23,
       "value": "\"rendering_for_message\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 2076,
       "length": 15,
       "value": "\"buzzo_counter\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 2127,
       "length": 16,
       "value": "\"original_query\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 2179,
       "length": 23,
       "value": "\"rendering_for_message\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 2466,
       "length": 24,
       "value": "\"cumulative_delay_in_ms\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Buzzo\/buzzo-framework\/HaptikCommerce\/HPJSEvent.swift",
+      "filePath": "\/Users\/Suraj-Boniwal\/Desktop\/buzzo-ios-sdk-framework\/HaptikCommerce\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 2466,
       "length": 24,
