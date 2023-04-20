@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HaptikCommerceLib"
-  spec.version      = "2.0.1"
+  spec.version      = "2.0.2"
   spec.summary      = "The Buzzo SDK enables brands to turn their app into a Shopping and Ordering Assistant."
 
   spec.description  = <<-DESC
@@ -49,6 +49,7 @@ Pod::Spec.new do |spec|
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   spec.frameworks = "WebKit", "Speech", "UIKit", "AVFoundation", "Foundation"
+  spec.dependency 'Starscream', '~> 4.0'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
