@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HaptikCommerce
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -12,8 +12,6 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
-extension Swift.String : Swift.Error {
-}
 @_inheritsConvenienceInitializers @objc public class HPCommerceAttributesBuilder : ObjectiveC.NSObject {
   @objc public var sessionID: Swift.String
   @objc public var sourceController: Swift.String
@@ -123,8 +121,6 @@ extension HaptikCommerce.HaptikCommerceLib {
   @objc dynamic public func loadConversation(launchController: UIKit.UIViewController, attributes: HaptikCommerce.HPCommerceAttributesBuilder)
   @objc dynamic public func unregister()
   @objc dynamic public func updateEventData(eventName: Swift.String, eventData: [Swift.String : Any])
-  @objc dynamic public func setupGoogle(apiKey: Swift.String)
-  @objc dynamic public func setupReverie(apiKey: Swift.String, appId: Swift.String, domain: Swift.String)
 }
 extension HaptikCommerce.HPLanguage : Swift.Equatable {}
 extension HaptikCommerce.HPLanguage : Swift.Hashable {}

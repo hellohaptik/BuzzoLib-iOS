@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/HaptikCommerce-Swift.h</key>
 		<data>
-		2F+R/L0fzazJcVaIG0vqGmzmV7E=
+		VJ2OQ+bsA1nBdbOZY8GcdNWES5c=
 		</data>
 		<key>Headers/HaptikCommerce.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1kUd8asPiVHUH1PToZNtGrPsCYA=
+		Gx/eC8lpB1jjgJNb28CWalS8Jdg=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		pHucEznhC+hrrwnZU/YwAW+FmUs=
+		MhjBkx00r3Iz1S59Uy+kG4zxZpQ=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		QLlSgpdTpTJZuQEzX+sY9gOWHio=
+		EuXiR83CRe8WvLN1JVIWFySRqDg=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		bAqiFQWaQ6jmPF/IcponiwNxffE=
+		eni/0hZ5sQ120ck2W2fnIQtvWaY=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QLlSgpdTpTJZuQEzX+sY9gOWHio=
+		EuXiR83CRe8WvLN1JVIWFySRqDg=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		K6plikSNMM9RXBOZs+szamnFoLo=
+		s+1MP7aJD0rrbu2UkfMqCDz6UVM=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		pHucEznhC+hrrwnZU/YwAW+FmUs=
+		MhjBkx00r3Iz1S59Uy+kG4zxZpQ=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		tZBrtvz9VJo3xEor1/sTS6EjanE=
+		IQWP8JZAj0nzEkUEJVmJbuUHUAI=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Wu5k3id+kfs5hq94HtkUIKMSifk=
+		D44fUe8P4x+uOA0og9fkIPugG6s=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		tZBrtvz9VJo3xEor1/sTS6EjanE=
+		IQWP8JZAj0nzEkUEJVmJbuUHUAI=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		s5lr4XjOCrhck+5vzM/Ig2MVGKw=
+		PjYxKvwANdE9ywbPas0Wg433MaE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,11 +79,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2F+R/L0fzazJcVaIG0vqGmzmV7E=
+			VJ2OQ+bsA1nBdbOZY8GcdNWES5c=
 			</data>
 			<key>hash2</key>
 			<data>
-			HVmc2AOgQj929BtQW1ke6xDP7G3Z0D47OihatnFpEvQ=
+			Xl7AgRH0ceGDyR81O8bWophW6UhwguB0ni9lw48L/d4=
 			</data>
 		</dict>
 		<key>Headers/HaptikCommerce.h</key>
@@ -101,110 +101,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pHucEznhC+hrrwnZU/YwAW+FmUs=
+			MhjBkx00r3Iz1S59Uy+kG4zxZpQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			etAxXzJbBU5FDM/xzk+kbGl+Q574YObKl+Ev9nOojaQ=
+			DIJb0Jl6lMR3QUvdJTJvfcbKybgn2L/iF19TnZQaye8=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QLlSgpdTpTJZuQEzX+sY9gOWHio=
+			EuXiR83CRe8WvLN1JVIWFySRqDg=
 			</data>
 			<key>hash2</key>
 			<data>
-			sG4ycWUAqZ+mrmx+EQa0NrimTOLjAWAenofiRARumSA=
+			r0lU/pDNiLfw0xUTn+nFjSH2xsk0+ZIiF9oJxW38oWw=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bAqiFQWaQ6jmPF/IcponiwNxffE=
+			eni/0hZ5sQ120ck2W2fnIQtvWaY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q0FmC3sOlZTt1KCKG6hhRIYTsw0OUqIwTHPt00V3pQM=
+			k8slwsH4dMUkd+H8iip4+PZN4QS/nUwiQQQVkqOS1wM=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QLlSgpdTpTJZuQEzX+sY9gOWHio=
+			EuXiR83CRe8WvLN1JVIWFySRqDg=
 			</data>
 			<key>hash2</key>
 			<data>
-			sG4ycWUAqZ+mrmx+EQa0NrimTOLjAWAenofiRARumSA=
+			r0lU/pDNiLfw0xUTn+nFjSH2xsk0+ZIiF9oJxW38oWw=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K6plikSNMM9RXBOZs+szamnFoLo=
+			s+1MP7aJD0rrbu2UkfMqCDz6UVM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZPKXY5jChi1OPY9aLO99y5DWPcMGThnUtO5BXgf5eb8=
+			WItyJYVw4WUg7qGprdCQWaKF9TGJ9sHfT1LBDa75WRU=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pHucEznhC+hrrwnZU/YwAW+FmUs=
+			MhjBkx00r3Iz1S59Uy+kG4zxZpQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			etAxXzJbBU5FDM/xzk+kbGl+Q574YObKl+Ev9nOojaQ=
+			DIJb0Jl6lMR3QUvdJTJvfcbKybgn2L/iF19TnZQaye8=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tZBrtvz9VJo3xEor1/sTS6EjanE=
+			IQWP8JZAj0nzEkUEJVmJbuUHUAI=
 			</data>
 			<key>hash2</key>
 			<data>
-			PhM1FHyIcPgFE85q3zylxUWVbBoy3S8airOz9j3d41c=
+			xWzb3rcu0cJCcqFrrxGuEmSmyXsmbUl/YCMBtGtf9rE=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Wu5k3id+kfs5hq94HtkUIKMSifk=
+			D44fUe8P4x+uOA0og9fkIPugG6s=
 			</data>
 			<key>hash2</key>
 			<data>
-			PlpNGTSB36Ayoz/XvQdjsxJM7CCJYWv/PG+hg/7Pd5w=
+			PQ5IIeaz3FvS1VAiKmxXgCjZXt2/+A+12gH0iLySwhM=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tZBrtvz9VJo3xEor1/sTS6EjanE=
+			IQWP8JZAj0nzEkUEJVmJbuUHUAI=
 			</data>
 			<key>hash2</key>
 			<data>
-			PhM1FHyIcPgFE85q3zylxUWVbBoy3S8airOz9j3d41c=
+			xWzb3rcu0cJCcqFrrxGuEmSmyXsmbUl/YCMBtGtf9rE=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s5lr4XjOCrhck+5vzM/Ig2MVGKw=
+			PjYxKvwANdE9ywbPas0Wg433MaE=
 			</data>
 			<key>hash2</key>
 			<data>
-			p7EbS3oZiC96K3x64LkZ9UsDMxuM9ag/nGtcziMWUEA=
+			FDSksJDAmEVFnSMgdRVpokSu6EDAL4qjeS7i3aj/ois=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
