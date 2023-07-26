@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/HaptikCommerce-Swift.h</key>
 		<data>
-		VV0KWsOp6hKs+6Vzh/rE87UlKZM=
+		65xanDoxI4M8Z40iZlxB4Fg90Nw=
 		</data>
 		<key>Headers/HaptikCommerce.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DtW4pN1SLUhldpOmVI7CV+lquYU=
+		MGpgplinRTaJkP38pzzj3QYOZ+4=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		pHucEznhC+hrrwnZU/YwAW+FmUs=
+		yFaleFmFZsEzT+QwEQzG62dhbFM=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Ic/ISJqTw6nQgOE1OCHZuAeHXN0=
+		CtJniBgnKEc+ZtIqgHiNdmkgG48=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		kUspN9TgAJgGYhpwMCkk6DaxANk=
+		WVmUI7RqOTFnYEH0Qb5f2od9Bv4=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Ic/ISJqTw6nQgOE1OCHZuAeHXN0=
+		CtJniBgnKEc+ZtIqgHiNdmkgG48=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		VjBPgBzuzpFUjjcN03INh423Lvo=
+		xMWBPH0XUyIV7qm1xMdrjQEYVBU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -57,21 +57,13 @@
 	<dict>
 		<key>Headers/HaptikCommerce-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VV0KWsOp6hKs+6Vzh/rE87UlKZM=
-			</data>
 			<key>hash2</key>
 			<data>
-			7PDqmF3rG026gUGslzd41j89llQvBzrHtJk+eF/N9M8=
+			lr6XxUy9woKjeZCyhsiRnOcN4oNX7ezhFgXY0aRLMAU=
 			</data>
 		</dict>
 		<key>Headers/HaptikCommerce.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0Ak6/aCJO0EkUsodWqIOX5FeUOg=
-			</data>
 			<key>hash2</key>
 			<data>
 			+LFGLikshxiyIX8AOxP2GpEZRH70AHNBHNin3sRaiI4=
@@ -79,65 +71,41 @@
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pHucEznhC+hrrwnZU/YwAW+FmUs=
-			</data>
 			<key>hash2</key>
 			<data>
-			etAxXzJbBU5FDM/xzk+kbGl+Q574YObKl+Ev9nOojaQ=
+			Y5O4gUwTsYrq8X+TbW/8rKGmYeWHaSUGZ+95wFla/ow=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Ic/ISJqTw6nQgOE1OCHZuAeHXN0=
-			</data>
 			<key>hash2</key>
 			<data>
-			5B5MCy5SgidtAH/xPrRvHY6+qgaRyXQKD4RTNKLmUrM=
+			NKR3EjBpofilInmPseZRBUhCZK5dPmEKnho3dzzASGo=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kUspN9TgAJgGYhpwMCkk6DaxANk=
-			</data>
 			<key>hash2</key>
 			<data>
-			BhS82J51D+EsFURJ/wra/s277VttjKrbif/V8mjaBig=
+			kXIsuPdjftE7ijgeDV2SLPIvWpaUX/u+KjJt+f4RfSM=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Ic/ISJqTw6nQgOE1OCHZuAeHXN0=
-			</data>
 			<key>hash2</key>
 			<data>
-			5B5MCy5SgidtAH/xPrRvHY6+qgaRyXQKD4RTNKLmUrM=
+			NKR3EjBpofilInmPseZRBUhCZK5dPmEKnho3dzzASGo=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VjBPgBzuzpFUjjcN03INh423Lvo=
-			</data>
 			<key>hash2</key>
 			<data>
-			Hrktgc9uoiKorRJBudt8+RVqNpETBnx5gSuKPPwKT2A=
+			Ai+WjUXQls2f/qGKrCM5j1hDPosa3WZi8SPbLlSgEj4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			seFIHTEN0oGYiSS/zzlQg66cdXM=
-			</data>
 			<key>hash2</key>
 			<data>
 			9tVvQKQkDRnGi9IkKOkQzOQ8MRaVc6rwmnOdnVMsuKU=
@@ -145,10 +113,6 @@
 		</dict>
 		<key>record_error.mp3</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uqTvJbAM0KGaTTYWETAQO7liFc0=
-			</data>
 			<key>hash2</key>
 			<data>
 			X7OcFrB9ZMPSqdGxx5QeWtARLY4qhHRoKwWfmCufS28=
@@ -156,10 +120,6 @@
 		</dict>
 		<key>record_start.mp3</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qV1cC+0fCbTQ5/mOizPeWriaviU=
-			</data>
 			<key>hash2</key>
 			<data>
 			mlSPJ3ArrYm5sTir0a8OyVglbHPKH1+lrBx1qmBEapQ=
@@ -167,10 +127,6 @@
 		</dict>
 		<key>record_stop.mp3</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gnEvoFfkOVNrdEVakSYXPmVmTmg=
-			</data>
 			<key>hash2</key>
 			<data>
 			VqSpSmZaZVJWUg5Yq/ngoRjCIbBYfIxb7F/AJvlBRBI=
