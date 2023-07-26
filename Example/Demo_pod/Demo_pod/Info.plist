@@ -52,6 +52,11 @@
 		<key>runEnvironment</key>
 		<string>1</string>
 	</dict>
+    <key>NSAppTransportSecurity</key>
+        <dict>
+          <key>NSAllowsArbitraryLoads</key>
+              <true/>
+        </dict>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Microphone Speech permission</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
