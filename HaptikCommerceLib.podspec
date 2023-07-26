@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HaptikCommerceLib"
-  spec.version      = "2.0.0"
+  spec.version      = "2.1.0"
   spec.summary      = "The Buzzo SDK enables brands to turn their app into a Shopping and Ordering Assistant."
 
   spec.description  = <<-DESC
@@ -40,7 +40,7 @@ Pod::Spec.new do |spec|
 
   spec.vendored_frameworks = "Frameworks/HaptikCommerceLib/HaptikCommerce.xcframework"
   spec.platform     = :ios
-  spec.platform     = :ios, "10.0"
+  spec.platform     = :ios, "11.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
