@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.2.1] - (09/11/23) 
+### Bug Fixes
+- Fixed Crashes
+
 ## [2.1.0] - (26/07/23) 
 ### Bug Fixes
 - Fixed Crashes
