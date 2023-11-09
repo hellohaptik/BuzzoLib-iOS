@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         HaptikCommerceLib.sharedSDK.setupGoogle(apiKey: "Your_Google_Key");
         
         // Setup Reverie Services
-        HaptikCommerceLib.sharedSDK.setupReverie(apiKey: "Your_Reverie_Key", appId: "Reverie_AppId", domain: "Reverie_Domain")
+        HaptikCommerceLib.sharedSDK.setupReverie(apiKey: "576d6c0d4f547153d8123ed88db2101a4e5e6698", appId: "Reverie_AppId", domain: "Reverie_Domain")
         
         return true
     }

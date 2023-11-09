@@ -46,17 +46,17 @@
 	<key>HaptikCommerceLib</key>
 	<dict>
 		<key>baseUrl</key>
-		<string>your_base_url</string>
+		<string>https://jiomart-staging.haptikapi.net</string>
 		<key>clientID</key>
-		<string>your_client_id</string>
+		<string>com.jiomartios</string>
 		<key>runEnvironment</key>
 		<string>1</string>
 	</dict>
-    <key>NSAppTransportSecurity</key>
-        <dict>
-          <key>NSAllowsArbitraryLoads</key>
-              <true/>
-        </dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Microphone Speech permission</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
