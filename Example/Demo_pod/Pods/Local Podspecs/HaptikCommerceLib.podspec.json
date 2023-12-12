@@ -29,7 +29,7 @@
   ],
   "dependencies": {
     "Starscream": [
-      "~> 4.0"
+      "4.0.4"
     ]
   },
   "requires_arc": true

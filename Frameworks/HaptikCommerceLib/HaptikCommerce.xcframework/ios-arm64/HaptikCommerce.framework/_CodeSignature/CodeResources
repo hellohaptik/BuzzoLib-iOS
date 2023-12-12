@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MGpgplinRTaJkP38pzzj3QYOZ+4=
+		ZISRvbJxcRsEPW0pFgQetuNM9fo=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		yFaleFmFZsEzT+QwEQzG62dhbFM=
+		cqj95B02YK1ImE3jdpuZjd4OYPk=
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		xMWBPH0XUyIV7qm1xMdrjQEYVBU=
+		oEUgbrAiPjlAk3gxZTjDiTeHJUw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -73,7 +73,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y5O4gUwTsYrq8X+TbW/8rKGmYeWHaSUGZ+95wFla/ow=
+			lBf/CAjLMf2ug2CDnO+nAk45g7luApw5Q1C+NxkTy1s=
 			</data>
 		</dict>
 		<key>Modules/HaptikCommerce.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -101,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ai+WjUXQls2f/qGKrCM5j1hDPosa3WZi8SPbLlSgEj4=
+			L9fka4QYY22SSPjoyWoqDkQMjD72HvXO2Wvzfn0MicM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
