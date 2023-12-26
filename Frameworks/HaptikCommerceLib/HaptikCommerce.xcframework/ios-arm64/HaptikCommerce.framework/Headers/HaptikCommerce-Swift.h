@@ -286,6 +286,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 typedef SWIFT_ENUM(NSInteger, ASRMode, open) {
   ASRModeAppleNative = 0,
   ASRModeReverieASR = 1,
+  ASRModeThirdParty = 2,
 };
 
 @class NSString;
@@ -384,6 +385,10 @@ SWIFT_PROTOCOL("_TtP14HaptikCommerce15HPExternalEvent_")
 /// \param error <code>Error</code> object explaining reason and recovery suggestion
 ///
 - (void)didReceiveHaptikError:(NSError * _Nonnull)error;
+/// Called in case of third-party ASR implementation
+/// \param status Returns true to start recoring and false to stop recoring
+///
+- (void)startRecording:(BOOL)status;
 @end
 
 /// Haptik IVA  supported language
@@ -536,6 +541,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) HaptikCommer
 - (void)updateEventDataWithEventName:(NSString * _Nonnull)eventName eventData:(NSDictionary<NSString *, id> * _Nonnull)eventData;
 - (void)setupGoogleWithApiKey:(NSString * _Nonnull)apiKey;
 - (void)setupReverieWithApiKey:(NSString * _Nonnull)apiKey appId:(NSString * _Nonnull)appId domain:(NSString * _Nonnull)domain;
+- (void)updateSpeechInputWithInputText:(NSString * _Nonnull)inputText final:(BOOL)final;
 @end
 
 /// Describes Text To Speech modes
