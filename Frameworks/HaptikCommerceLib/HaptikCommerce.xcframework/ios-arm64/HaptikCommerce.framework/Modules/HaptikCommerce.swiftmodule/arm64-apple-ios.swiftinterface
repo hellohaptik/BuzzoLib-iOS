@@ -6,7 +6,6 @@ import AVFoundation
 import Foundation
 @_exported import HaptikCommerce
 import Speech
-import Starscream
 import Swift
 import UIKit
 import WebKit
@@ -55,6 +54,7 @@ extension Swift.String : Swift.Error {
 @objc public protocol HPExternalEvent {
   @objc func didReceiveHaptikEvent(_ eventData: Swift.String)
   @objc func didReceiveHaptikError(_ error: Foundation.NSError)
+  @objc func startRecording(_ status: Swift.Bool)
 }
 @objc public enum HPLanguage : Swift.Int {
   case englishUK
@@ -107,7 +107,9 @@ extension Swift.String : Swift.Error {
 }
 @objc public enum ASRMode : Swift.Int {
   case appleNative
+  @available(*, deprecated, message: "ASRMode.reverieASR is no longer supported. Implement ASRMode.thirdParty instead.")
   case reverieASR
+  case thirdParty
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -125,6 +127,7 @@ extension HaptikCommerce.HaptikCommerceLib {
   @objc dynamic public func updateEventData(eventName: Swift.String, eventData: [Swift.String : Any])
   @objc dynamic public func setupGoogle(apiKey: Swift.String)
   @objc dynamic public func setupReverie(apiKey: Swift.String, appId: Swift.String, domain: Swift.String)
+  @objc dynamic public func updateSpeechInput(inputText: Swift.String, final: Swift.Bool)
 }
 extension HaptikCommerce.HPLanguage : Swift.Equatable {}
 extension HaptikCommerce.HPLanguage : Swift.Hashable {}

@@ -2,6 +2,12 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [3.0.0] - (26/12/23) 
+### Bug Fixes
+- Add External ASR Interfaces
+- Remove Reverie internal support
+- Update Demo
+
 ## [2.1.0] - (26/07/23) 
 ### Bug Fixes
 - Fixed Crashes
