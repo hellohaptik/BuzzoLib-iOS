@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [3.0.1] - (25/02/23) 
+### Enhanncement
+- Xcode 15 compatibility 
+
 ## [3.0.0] - (26/12/23) 
 ### Bug Fixes
 - Add External ASR Interfaces
